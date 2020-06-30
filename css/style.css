@@ -1303,9 +1303,9 @@ body.offcanvas {
   cursor: pointer;
   text-decoration: none; }
   .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
-    background: #000; }
+    background: red; }
   .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
-    background: #000; }
+    background: red; }
   .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
@@ -1394,7 +1394,8 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .colorlib-nav-toggle {
       opacity: 1;
-      visibility: visible; } }
+      visibility: visible;
+	  background-color: white;} }
 
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
