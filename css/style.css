@@ -1317,7 +1317,7 @@ body.offcanvas {
     *display: inline;
     width: 30px;
     height: 2px;
-    color: #000;
+    color: white;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
