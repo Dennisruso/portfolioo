@@ -1,717 +1,1957 @@
 <!doctype html>
 <html lang="en-US" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" /><title>Web Design Journey: A Guide for Beginners &#8211; Tech Ruso</title>
-<meta name='robots' content='max-image-preview:large' />
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel="alternate" type="application/rss+xml" title="Tech Ruso &raquo; Feed" href="http://localhost/portfolio/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Tech Ruso &raquo; Comments Feed" href="http://localhost/portfolio/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Tech Ruso &raquo; Web Design Journey: A Guide for Beginners Comments Feed" href="http://localhost/portfolio/web-design-journey-a-guide-for-beginners/feed/" />
-<script type="text/javascript">
-/* <![CDATA[ */
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/portfolio\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"}};
-/*! This file is auto-generated */
-!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
-/* ]]> */
-</script>
-<style id='wp-emoji-styles-inline-css' type='text/css'>
 
-	img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}
-</style>
-<link rel='stylesheet' href='./css/dist-block-library-style.min.css'>
-<style id='dm-code-snippet-code-snippet-block-dm-style-inline-css' type='text/css'>
-/*!***************************************************************************************************************************************************************************************************************************************!*\
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>Web Design Journey: A Guide for Beginners &#8211; Tech Ruso</title>
+  <meta name='robots' content='max-image-preview:large' />
+  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+  <link rel="alternate" type="application/rss+xml" title="Tech Ruso &raquo; Feed"
+    href="http://localhost/portfolio/feed/" />
+  <link rel="alternate" type="application/rss+xml" title="Tech Ruso &raquo; Comments Feed"
+    href="http://localhost/portfolio/comments/feed/" />
+  <link rel="alternate" type="application/rss+xml"
+    title="Tech Ruso &raquo; Web Design Journey: A Guide for Beginners Comments Feed"
+    href="http://localhost/portfolio/web-design-journey-a-guide-for-beginners/feed/" />
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "http:\/\/localhost\/portfolio\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1" } };
+    /*! This file is auto-generated */
+    !function (i, n) { var o, s, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === r[t] }) } function u(e, t, n) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff") }return !1 } function f(e, t, n) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"), a = r.getContext("2d", { willReadFrequently: !0 }), o = (a.textBaseline = "top", a.font = "600 32px Arial", {}); return e.forEach(function (e) { o[e] = t(a, e, n) }), o } function t(e) { var t = i.createElement("script"); t.src = e, t.defer = !0, i.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { i.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));", r = new Blob([e], { type: "text/javascript" }), a = new Worker(URL.createObjectURL(r), { name: "wpTestEmojiSupports" }); return void (a.onmessage = function (e) { c(n = e.data), a.terminate(), t(n) }) } catch (e) { } c(n = f(s, u, p)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
+    /* ]]> */
+  </script>
+  <style id='wp-emoji-styles-inline-css' type='text/css'>
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 0.07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
+  <link rel='stylesheet' href='./css/dist-block-library-style.min.css'>
+  <style id='dm-code-snippet-code-snippet-block-dm-style-inline-css' type='text/css'>
+    /*!***************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
   \***************************************************************************************************************************************************************************************************************************************/
-/**
+    /**
  * The following styles get applied both on the front of your site
  * and in the editor.
  *
  * Replace them with your own styles or remove the file completely.
  */
-.wp-block-code-snippet-block-dm-code-snippet-block-dm {
-  background-color: #21759b;
-  color: #fff;
-  padding: 2px;
-}
+    .wp-block-code-snippet-block-dm-code-snippet-block-dm {
+      background-color: #21759b;
+      color: #fff;
+      padding: 2px;
+    }
 
-/*# sourceMappingURL=style-index.css.map*/
-</style>
-<link rel='stylesheet' href='./css/code-snippet-dm-public-css-main.min.css'>
-<link rel='stylesheet' href='./css/embedpress-Gutenberg-dist-blocks.style.build.css'>
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-</style>
-<style id='global-styles-inline-css' type='text/css'>
-body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
-:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
-.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
-</style>
-<link rel='stylesheet' href='./css/export-wp-page-to-static-html-pro-premium-public-css-export-wp-page-to-static-html-public.css'>
-<link rel='stylesheet' href='./css/embedpress-assets-css-embedpress.css'>
-<link rel='stylesheet' href='./css/salient-social-css-style.css'>
-<style id='salient-social-inline-css' type='text/css'>
+    /*# sourceMappingURL=style-index.css.map*/
+  </style>
+  <link rel='stylesheet' href='./css/code-snippet-dm-public-css-main.min.css'>
+  <link rel='stylesheet' href='./css/embedpress-Gutenberg-dist-blocks.style.build.css'>
+  <style id='classic-theme-styles-inline-css' type='text/css'>
+    /*! This file is auto-generated */
+    .wp-block-button__link {
+      color: #fff;
+      background-color: #32373c;
+      border-radius: 9999px;
+      box-shadow: none;
+      text-decoration: none;
+      padding: calc(.667em + 2px) calc(1.333em + 2px);
+      font-size: 1.125em
+    }
 
-  .sharing-default-minimal .nectar-love.loved,
-  body .nectar-social[data-color-override="override"].fixed > a:before, 
-  body .nectar-social[data-color-override="override"].fixed .nectar-social-inner a,
-  .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:hover,
-  .nectar-social.vertical[data-color-override="override"] .nectar-social-inner a:hover {
-    background-color: #ffc514;
-  }
-  .nectar-social.hover .nectar-love.loved,
-  .nectar-social.hover > .nectar-love-button a:hover,
-  .nectar-social[data-color-override="override"].hover > div a:hover,
-  #single-below-header .nectar-social[data-color-override="override"].hover > div a:hover,
-  .nectar-social[data-color-override="override"].hover .share-btn:hover,
-  .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a {
-    border-color: #ffc514;
-  }
-  #single-below-header .nectar-social.hover .nectar-love.loved i,
-  #single-below-header .nectar-social.hover[data-color-override="override"] a:hover,
-  #single-below-header .nectar-social.hover[data-color-override="override"] a:hover i,
-  #single-below-header .nectar-social.hover .nectar-love-button a:hover i,
-  .nectar-love:hover i,
-  .hover .nectar-love:hover .total_loves,
-  .nectar-love.loved i,
-  .nectar-social.hover .nectar-love.loved .total_loves,
-  .nectar-social.hover .share-btn:hover, 
-  .nectar-social[data-color-override="override"].hover .nectar-social-inner a:hover,
-  .nectar-social[data-color-override="override"].hover > div:hover span,
-  .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:not(:hover) i,
-  .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:not(:hover) {
-    color: #ffc514;
-  }
-</style>
-<link rel='stylesheet' href='./css/salient-css-font-awesome-legacy.min.css'>
-<link rel='stylesheet' href='./css/salient-css-build-grid-system.css'>
-<link rel='stylesheet' href='./css/salient-css-build-style.css'>
-<link rel='stylesheet' href='./css/salient-css-build-single.css'>
-<link rel='stylesheet' id='nectar_default_font_open_sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
-<link rel='stylesheet' href='./css/salient-css-build-responsive.css'>
-<link rel='stylesheet' href='./css/salient-css-build-skin-material.css'>
-<link rel='stylesheet' href='./css/salient-menu-dynamic.css'>
-<link rel='stylesheet' href='./css/js_composer_salient-assets-css-js_composer.min.css'>
-<link rel='stylesheet' href='./css/dashicons.min.css'>
-<link rel='stylesheet' href='./css/embedpress-assets-css-plyr.css'>
-<link rel='stylesheet' href='./css/salient-css-salient-dynamic-styles.css'>
-<style id='dynamic-css-inline-css' type='text/css'>
-#page-header-bg[data-post-hs="default_minimal"] .inner-wrap{text-align:center}#page-header-bg[data-post-hs="default_minimal"] .inner-wrap >a,.material #page-header-bg.fullscreen-header .inner-wrap >a{color:#fff;font-weight:600;border:var(--nectar-border-thickness) solid rgba(255,255,255,0.4);padding:4px 10px;margin:5px 6px 0 5px;display:inline-block;transition:all 0.2s ease;-webkit-transition:all 0.2s ease;font-size:14px;line-height:18px}body.material #page-header-bg.fullscreen-header .inner-wrap >a{margin-bottom:15px;}body.material #page-header-bg.fullscreen-header .inner-wrap >a{border:none;padding:6px 10px}body[data-button-style^="rounded"] #page-header-bg[data-post-hs="default_minimal"] .inner-wrap >a,body[data-button-style^="rounded"].material #page-header-bg.fullscreen-header .inner-wrap >a{border-radius:100px}body.single [data-post-hs="default_minimal"] #single-below-header span,body.single .heading-title[data-header-style="default_minimal"] #single-below-header span{line-height:14px;}#page-header-bg[data-post-hs="default_minimal"] #single-below-header{text-align:center;position:relative;z-index:100}#page-header-bg[data-post-hs="default_minimal"] #single-below-header span{float:none;display:inline-block}#page-header-bg[data-post-hs="default_minimal"] .inner-wrap >a:hover,#page-header-bg[data-post-hs="default_minimal"] .inner-wrap >a:focus{border-color:transparent}#page-header-bg.fullscreen-header .avatar,#page-header-bg[data-post-hs="default_minimal"] .avatar{border-radius:100%}#page-header-bg.fullscreen-header .meta-author span,#page-header-bg[data-post-hs="default_minimal"] .meta-author span{display:block}#page-header-bg.fullscreen-header .meta-author img{margin-bottom:0;height:50px;width:auto}#page-header-bg[data-post-hs="default_minimal"] .meta-author img{margin-bottom:0;height:40px;width:auto}#page-header-bg[data-post-hs="default_minimal"] .author-section{position:absolute;bottom:30px}#page-header-bg.fullscreen-header .meta-author,#page-header-bg[data-post-hs="default_minimal"] .meta-author{font-size:18px}#page-header-bg.fullscreen-header .author-section .meta-date,#page-header-bg[data-post-hs="default_minimal"] .author-section .meta-date{font-size:12px;color:rgba(255,255,255,0.8)}#page-header-bg.fullscreen-header .author-section .meta-date i{font-size:12px}#page-header-bg[data-post-hs="default_minimal"] .author-section .meta-date i{font-size:11px;line-height:14px}#page-header-bg[data-post-hs="default_minimal"] .author-section .avatar-post-info{position:relative;top:-5px}#page-header-bg.fullscreen-header .author-section a,#page-header-bg[data-post-hs="default_minimal"] .author-section a{display:block;margin-bottom:-2px}#page-header-bg[data-post-hs="default_minimal"] .author-section a{font-size:14px;line-height:14px}#page-header-bg.fullscreen-header .author-section a:hover,#page-header-bg[data-post-hs="default_minimal"] .author-section a:hover{color:rgba(255,255,255,0.85)!important}#page-header-bg.fullscreen-header .author-section,#page-header-bg[data-post-hs="default_minimal"] .author-section{width:100%;z-index:10;text-align:center}#page-header-bg.fullscreen-header .author-section{margin-top:25px;}#page-header-bg.fullscreen-header .author-section span,#page-header-bg[data-post-hs="default_minimal"] .author-section span{padding-left:0;line-height:20px;font-size:20px}#page-header-bg.fullscreen-header .author-section .avatar-post-info,#page-header-bg[data-post-hs="default_minimal"] .author-section .avatar-post-info{margin-left:10px}#page-header-bg.fullscreen-header .author-section .avatar-post-info,#page-header-bg.fullscreen-header .author-section .meta-author,#page-header-bg[data-post-hs="default_minimal"] .author-section .avatar-post-info,#page-header-bg[data-post-hs="default_minimal"] .author-section .meta-author{text-align:left;display:inline-block;top:9px}@media only screen and (min-width :690px) and (max-width :999px){body.single-post #page-header-bg[data-post-hs="default_minimal"]{padding-top:10%;padding-bottom:10%;}}@media only screen and (max-width :690px){#ajax-content-wrap #page-header-bg[data-post-hs="default_minimal"] #single-below-header span:not(.rich-snippet-hidden),#ajax-content-wrap .row.heading-title[data-header-style="default_minimal"] .col.section-title span.meta-category{display:inline-block;}.container-wrap[data-remove-post-comment-number="0"][data-remove-post-author="0"][data-remove-post-date="0"] .heading-title[data-header-style="default_minimal"] #single-below-header > span,#page-header-bg[data-post-hs="default_minimal"] .span_6[data-remove-post-comment-number="0"][data-remove-post-author="0"][data-remove-post-date="0"] #single-below-header > span{padding:0 8px;}.container-wrap[data-remove-post-comment-number="0"][data-remove-post-author="0"][data-remove-post-date="0"] .heading-title[data-header-style="default_minimal"] #single-below-header span,#page-header-bg[data-post-hs="default_minimal"] .span_6[data-remove-post-comment-number="0"][data-remove-post-author="0"][data-remove-post-date="0"] #single-below-header span{font-size:13px;line-height:10px;}.material #page-header-bg.fullscreen-header .author-section{margin-top:5px;}#page-header-bg.fullscreen-header .author-section{bottom:20px;}#page-header-bg.fullscreen-header .author-section .meta-date:not(.updated){margin-top:-4px;display:block;}#page-header-bg.fullscreen-header .author-section .avatar-post-info{margin:10px 0 0 0;}}#page-header-bg h1,#page-header-bg .subheader,.nectar-box-roll .overlaid-content h1,.nectar-box-roll .overlaid-content .subheader,#page-header-bg #portfolio-nav a i,body .section-title #portfolio-nav a:hover i,.page-header-no-bg h1,.page-header-no-bg span,#page-header-bg #portfolio-nav a i,#page-header-bg span,#page-header-bg #single-below-header a:hover,#page-header-bg #single-below-header a:focus,#page-header-bg.fullscreen-header .author-section a{color:#ffffff!important;}body #page-header-bg .pinterest-share i,body #page-header-bg .facebook-share i,body #page-header-bg .linkedin-share i,body #page-header-bg .twitter-share i,body #page-header-bg .google-plus-share i,body #page-header-bg .icon-salient-heart,body #page-header-bg .icon-salient-heart-2{color:#ffffff;}#page-header-bg[data-post-hs="default_minimal"] .inner-wrap > a:not(:hover){color:#ffffff;border-color:rgba(255,255,255,0.4);}.single #page-header-bg #single-below-header > span{border-color:rgba(255,255,255,0.4);}body .section-title #portfolio-nav a:hover i{opacity:0.75;}.single #page-header-bg .blog-title #single-meta .nectar-social.hover > div a,.single #page-header-bg .blog-title #single-meta > div a,.single #page-header-bg .blog-title #single-meta ul .n-shortcode a,#page-header-bg .blog-title #single-meta .nectar-social.hover .share-btn{border-color:rgba(255,255,255,0.4);}.single #page-header-bg .blog-title #single-meta .nectar-social.hover > div a:hover,#page-header-bg .blog-title #single-meta .nectar-social.hover .share-btn:hover,.single #page-header-bg .blog-title #single-meta div > a:hover,.single #page-header-bg .blog-title #single-meta ul .n-shortcode a:hover,.single #page-header-bg .blog-title #single-meta ul li:not(.meta-share-count):hover > a{border-color:rgba(255,255,255,1);}.single #page-header-bg #single-meta div span,.single #page-header-bg #single-meta > div a,.single #page-header-bg #single-meta > div i{color:#ffffff!important;}.single #page-header-bg #single-meta ul .meta-share-count .nectar-social a i{color:rgba(255,255,255,0.7)!important;}.single #page-header-bg #single-meta ul .meta-share-count .nectar-social a:hover i{color:rgba(255,255,255,1)!important;}.no-rgba #header-space{display:none;}@media only screen and (max-width:999px){body #header-space[data-header-mobile-fixed="1"]{display:none;}#header-outer[data-mobile-fixed="false"]{position:absolute;}}@media only screen and (max-width:999px){body:not(.nectar-no-flex-height) #header-space[data-secondary-header-display="full"]:not([data-header-mobile-fixed="false"]){display:block!important;margin-bottom:-50px;}#header-space[data-secondary-header-display="full"][data-header-mobile-fixed="false"]{display:none;}}@media only screen and (min-width:1000px){#header-space{display:none;}.nectar-slider-wrap.first-section,.parallax_slider_outer.first-section,.full-width-content.first-section,.parallax_slider_outer.first-section .swiper-slide .content,.nectar-slider-wrap.first-section .swiper-slide .content,#page-header-bg,.nder-page-header,#page-header-wrap,.full-width-section.first-section{margin-top:0!important;}body #page-header-bg,body #page-header-wrap{height:126px;}body #search-outer{z-index:100000;}}@media only screen and (min-width:1000px){#page-header-wrap.fullscreen-header,#page-header-wrap.fullscreen-header #page-header-bg,html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,.nectar_fullscreen_zoom_recent_projects,#nectar_fullscreen_rows:not(.afterLoaded) > div{height:100vh;}.wpb_row.vc_row-o-full-height.top-level,.wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:100vh;}#page-header-bg[data-alignment-v="middle"] .span_6 .inner-wrap,#page-header-bg[data-alignment-v="top"] .span_6 .inner-wrap,.blog-archive-header.color-bg .container{padding-top:123px;}#page-header-wrap.container #page-header-bg .span_6 .inner-wrap{padding-top:0;}.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container{height:calc(100vh + 2px)!important;}.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container{height:calc(100vh - 30px)!important;}}@media only screen and (max-width:999px){#page-header-bg[data-alignment-v="middle"]:not(.fullscreen-header) .span_6 .inner-wrap,#page-header-bg[data-alignment-v="top"] .span_6 .inner-wrap,.blog-archive-header.color-bg .container{padding-top:54px;}.vc_row.top-level.full-width-section:not(.full-width-ns) > .span_12,#page-header-bg[data-alignment-v="bottom"] .span_6 .inner-wrap{padding-top:24px;}}@media only screen and (max-width:690px){.vc_row.top-level.full-width-section:not(.full-width-ns) > .span_12{padding-top:54px;}.vc_row.top-level.full-width-content .nectar-recent-posts-single_featured .recent-post-container > .inner-wrap{padding-top:24px;}}@media only screen and (max-width:999px){.full-width-ns .nectar-slider-wrap .swiper-slide[data-y-pos="middle"] .content,.full-width-ns .nectar-slider-wrap .swiper-slide[data-y-pos="top"] .content{padding-top:30px;}}@media only screen and (max-width:999px){.using-mobile-browser #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div{height:calc(100vh - 76px);}.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level,.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12,[data-permanent-transparent="1"].using-mobile-browser .wpb_row.vc_row-o-full-height.top-level,[data-permanent-transparent="1"].using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 76px);}html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,.nectar_fullscreen_zoom_recent_projects,.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,#nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div{height:calc(100vh - 1px);}.wpb_row.vc_row-o-full-height.top-level,.wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 1px);}body[data-transparent-header="false"] #ajax-content-wrap.no-scroll{min-height:calc(100vh - 1px);height:calc(100vh - 1px);}}.screen-reader-text,.nectar-skip-to-content:not(:focus){border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important;}.row .col img:not([srcset]){width:auto;}.row .col img.img-with-animation.nectar-lazy:not([srcset]){width:100%;}
-</style>
-<link rel='stylesheet' id='redux-google-fonts-salient_redux-css' href='http://fonts.googleapis.com/css?family=Jost&#038;ver=6.4.1' type='text/css' media='all' />
-		<script>
-			/* <![CDATA[ */
-			var rcewpp = {
-				"ajax_url":"http://localhost/portfolio/wp-admin/admin-ajax.php",
-				"nonce": "823fd68b4a",
-				"home_url": "http://localhost/portfolio/",
-				"settings_icon": 'http://localhost/portfolio/wp-content/plugins/export-wp-page-to-static-html-pro-premium/admin/images/settings.png',
-				"settings_hover_icon": 'http://localhost/portfolio/wp-content/plugins/export-wp-page-to-static-html-pro-premium/admin/images/settings_hover.png'
-			};
-			/* ]]\> */
-		</script>
-		<script type="text/javascript" src="./js/jquery.min.js" id="jquery-core-js"></script>
-<script type="text/javascript" src="./js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-<script type="text/javascript" src="./js/clipboardv201.min.js" id="code-snippet-dm-dm-clipboard-js"></script>
-<script type="text/javascript" src="./js/prism.js" id="code-snippet-dm-dm-prism-js"></script>
-<script type="text/javascript" src="./js/manually-start-prism.js" id="code-snippet-dm-dm-manually-start-prism-js"></script>
-<script type="text/javascript" src="./js/code-snippet-dm-public.js" id="code-snippet-dm-js"></script>
-<script type="text/javascript" src="./js/export-wp-page-to-static-html-public.js" id="export-wp-page-to-static-html-js"></script>
-<script type="text/javascript" src="./js/plyr.polyfilled.js" id="plyr.polyfilled-js"></script>
-<link rel="https://api.w.org/" href="http://localhost/portfolio/wp-json/" /><link rel="alternate" type="application/json" href="http://localhost/portfolio/wp-json/wp/v2/posts/1990" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/portfolio/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 6.4.1" />
-<link rel="canonical" href="./web-design-journey-a-guide-for-beginners.html" />
-<link rel='shortlink' href='http://localhost/portfolio/?p=1990' />
-<link rel="alternate" type="application/json+oembed" href="http://localhost/portfolio/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fportfolio%2Fweb-design-journey-a-guide-for-beginners%2F" />
-<link rel="alternate" type="text/xml+oembed" href="http://localhost/portfolio/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fportfolio%2Fweb-design-journey-a-guide-for-beginners%2F&#038;format=xml" />
-<script type="text/javascript"> var root = document.getElementsByTagName( "html" )[0]; root.setAttribute( "class", "js" ); </script><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
-<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head><body class="post-template-default single single-post postid-1990 single-format-standard material wpb-js-composer js-comp-ver-6.13.1 vc_responsive" data-footer-reveal="false" data-footer-reveal-shadow="none" data-header-format="default" data-body-border="off" data-boxed-style="" data-header-breakpoint="1000" data-dropdown-style="minimal" data-cae="easeOutCubic" data-cad="750" data-megamenu-width="contained" data-aie="none" data-ls="fancybox" data-apte="standard" data-hhun="0" data-fancy-form-rcs="default" data-form-style="default" data-form-submit="regular" data-is="minimal" data-button-style="slightly_rounded_shadow" data-user-account-button="false" data-flex-cols="true" data-col-gap="default" data-header-inherit-rc="false" data-header-search="false" data-animated-anchors="true" data-ajax-transitions="false" data-full-width-header="false" data-slide-out-widget-area="true" data-slide-out-widget-area-style="fullscreen" data-user-set-ocm="1" data-loading-animation="none" data-bg-header="true" data-responsive="1" data-ext-responsive="true" data-ext-padding="90" data-header-resize="1" data-header-color="custom" data-cart="false" data-remove-m-parallax="" data-remove-m-video-bgs="" data-m-animate="0" data-force-header-trans-color="light" data-smooth-scrolling="0" data-permanent-transparent="false" >
-	
-	<script type="text/javascript">
-	 (function(window, document) {
+    .wp-block-file__button {
+      background: #32373c;
+      color: #fff;
+      text-decoration: none
+    }
+  </style>
+  <style id='global-styles-inline-css' type='text/css'>
+    body {
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+      --wp--preset--spacing--20: 0.44rem;
+      --wp--preset--spacing--30: 0.67rem;
+      --wp--preset--spacing--40: 1rem;
+      --wp--preset--spacing--50: 1.5rem;
+      --wp--preset--spacing--60: 2.25rem;
+      --wp--preset--spacing--70: 3.38rem;
+      --wp--preset--spacing--80: 5.06rem;
+      --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+      --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+      --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+    }
 
-		 if(navigator.userAgent.match(/(Android|iPod|iPhone|iPad|BlackBerry|IEMobile|Opera Mini)/)) {
-			 document.body.className += " using-mobile-browser mobile ";
-		 }
+    :where(.is-layout-flex) {
+      gap: 0.5em;
+    }
 
-		 if( !("ontouchstart" in window) ) {
+    :where(.is-layout-grid) {
+      gap: 0.5em;
+    }
 
-			 var body = document.querySelector("body");
-			 var winW = window.innerWidth;
-			 var bodyW = body.clientWidth;
+    body .is-layout-flow>.alignleft {
+      float: left;
+      margin-inline-start: 0;
+      margin-inline-end: 2em;
+    }
 
-			 if (winW > bodyW + 4) {
-				 body.setAttribute("style", "--scroll-bar-w: " + (winW - bodyW - 4) + "px");
-			 } else {
-				 body.setAttribute("style", "--scroll-bar-w: 0px");
-			 }
-		 }
+    body .is-layout-flow>.alignright {
+      float: right;
+      margin-inline-start: 2em;
+      margin-inline-end: 0;
+    }
 
-	 })(window, document);
-   </script><a href="" class="nectar-skip-to-content">Skip to main content</a><div class="ocm-effect-wrap"><div class="ocm-effect-wrap-inner">	
-	<div id="header-space"  data-header-mobile-fixed='1'></div> 
-	
-		<div id="header-outer" data-has-menu="false" data-has-buttons="yes" data-header-button_style="default" data-using-pr-menu="false" data-mobile-fixed="1" data-ptnm="false" data-lhe="animated_underline" data-user-set-bg="#ffffff" data-format="default" data-permanent-transparent="false" data-megamenu-rt="0" data-remove-fixed="0" data-header-resize="1" data-cart="false" data-transparency-option="" data-box-shadow="large" data-shrink-num="6" data-using-secondary="0" data-using-logo="1" data-logo-height="70" data-m-logo-height="24" data-padding="28" data-full-width="false" data-condense="false" data-transparent-header="true" data-transparent-shadow-helper="true" data-remove-border="true" class="transparent">
-		
-<div id="search-outer" class="nectar">
-	<div id="search">
-		<div class="container">
-			 <div id="search-box">
-				 <div class="inner-wrap">
-					 <div class="col span_12">
-						  <form role="search" action="http://localhost/portfolio/" method="GET">
-														 <input type="text" name="s"  value="" aria-label="Search" placeholder="Search" />
-							 
-						<span>Hit enter to search or ESC to close</span>
-												</form>
-					</div><!--/span_12-->
-				</div><!--/inner-wrap-->
-			 </div><!--/search-box-->
-			 <div id="close"><a href=""><span class="screen-reader-text">Close Search</span>
-				<span class="close-wrap"> <span class="close-line close-line1"></span> <span class="close-line close-line2"></span> </span>				 </a></div>
-		 </div><!--/container-->
-	</div><!--/search-->
-</div><!--/search-outer-->
+    body .is-layout-flow>.aligncenter {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
 
-<header id="top">
-	<div class="container">
-		<div class="row">
-			<div class="col span_3">
-								<a id="logo" href="./index.html" data-supplied-ml-starting-dark="false" data-supplied-ml-starting="false" data-supplied-ml="false" >
-					<img class="stnd skip-lazy default-logo dark-version" width="398" height="398" alt="Tech Ruso" src="./images/tech-russo-logo-blackt.png" srcset="./images/tech-russo-logo-blackt.png 1x, ./images/tech-russo-logo-blackt.png 2x" /><img class="starting-logo skip-lazy default-logo" width="398" height="398" alt="Tech Ruso" src="./images/tech-r-logo.png" srcset="./images/tech-r-logo.png 1x, ./images/tech-r-logo.png 2x" />				</a>
-							</div><!--/span_3-->
+    body .is-layout-constrained>.alignleft {
+      float: left;
+      margin-inline-start: 0;
+      margin-inline-end: 2em;
+    }
 
-			<div class="col span_9 col_last">
-									<div class="nectar-mobile-only mobile-header"><div class="inner"></div></div>
-													<div class="slide-out-widget-area-toggle mobile-icon fullscreen" data-custom-color="true" data-icon-animation="simple-transform">
-						<div> <a href="" role="button" aria-label="Navigation Menu" aria-expanded="false" class="closed">
-							<span class="screen-reader-text">Menu</span><span aria-hidden="true"> <i class="lines-button x2"> <i class="lines"></i> </i> </span>
-						</a></div>
-					</div>
-				
-									<nav>
-													<ul class="sf-menu">
-								<li class="no-menu-assigned"><a href=""></a></li>							</ul>
-													<ul class="buttons sf-menu" data-user-set-ocm="1">
+    body .is-layout-constrained>.alignright {
+      float: right;
+      margin-inline-start: 2em;
+      margin-inline-end: 0;
+    }
 
-								<li class="slide-out-widget-area-toggle" data-icon-animation="simple-transform" data-custom-color="true"><div> <a href="" aria-label="Navigation Menu" aria-expanded="false" role="button" class="closed"> <span class="screen-reader-text">Menu</span><span aria-hidden="true"> <i class="lines-button x2"> <i class="lines"></i> </i> </span> </a> </div></li>
-							</ul>
-						
-					</nav>
+    body .is-layout-constrained>.aligncenter {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
 
-					
-				</div><!--/span_9-->
+    body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+      max-width: var(--wp--style--global--content-size);
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
 
-				
-			</div><!--/row-->
-					</div><!--/container-->
-	</header>		
-	</div>
-		<div id="ajax-content-wrap">
-<div class="blurred-wrap"><div id="page-header-wrap" data-animate-in-effect="none" data-midnight="light" class="" style="height: 550px;"><div id="page-header-bg" class="not-loaded  hentry" data-post-hs="default_minimal" data-padding-amt="normal" data-animate-in-effect="none" data-midnight="light" data-text-effect="" data-bg-pos="center" data-alignment="left" data-alignment-v="middle" data-parallax="0" data-height="550"  style="height:550px;">					<div class="page-header-bg-image-wrap" id="nectar-page-header-p-wrap" data-parallax-speed="fast">
-						<div class="page-header-bg-image" style="background-image: url(./images/kelly-sikkema-v9FQR4tbIq8-unsplash-scaled.jpg);"></div>
-					</div> 
-				<div class="container"><img loading="lazy" class="hidden-social-img" src="./images/kelly-sikkema-v9FQR4tbIq8-unsplash-scaled.jpg" alt="Web Design Journey: A Guide for Beginners" style="display: none;" />
-					<div class="row">
-						<div class="col span_6 section-title blog-title" data-remove-post-date="0" data-remove-post-author="0" data-remove-post-comment-number="0">
-							<div class="inner-wrap">
+    body .is-layout-constrained>.alignwide {
+      max-width: var(--wp--style--global--wide-size);
+    }
 
-								<a class="web-design" href="./category/web-design.html">Web Design</a>
-								<h1 class="entry-title">Web Design Journey: A Guide for Beginners</h1>
+    body .is-layout-flex {
+      display: flex;
+    }
 
-								
+    body .is-layout-flex {
+      flex-wrap: wrap;
+      align-items: center;
+    }
 
-																	<div id="single-below-header" data-hide-on-mobile="false">
-										<span class="meta-author vcard author"><span class="fn"><span class="author-leading">By</span> <a href="./author/admin.html" title="Posts by admin" rel="author">admin</a></span></span><span class="meta-date date published">November 16, 2023</span><span class="meta-date date updated rich-snippet-hidden">November 18th, 2023</span><span class="meta-comment-count"><a href="./web-design-journey-a-guide-for-beginners.html">No Comments</a></span>									</div><!--/single-below-header-->
-						
-											</div>
+    body .is-layout-flex>* {
+      margin: 0;
+    }
 
-				</div><!--/section-title-->
-							</div><!--/row-->
+    body .is-layout-grid {
+      display: grid;
+    }
 
-			
+    body .is-layout-grid>* {
+      margin: 0;
+    }
+
+    :where(.wp-block-columns.is-layout-flex) {
+      gap: 2em;
+    }
+
+    :where(.wp-block-columns.is-layout-grid) {
+      gap: 2em;
+    }
+
+    :where(.wp-block-post-template.is-layout-flex) {
+      gap: 1.25em;
+    }
+
+    :where(.wp-block-post-template.is-layout-grid) {
+      gap: 1.25em;
+    }
+
+    .has-black-color {
+      color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-color {
+      color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-color {
+      color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-color {
+      color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-color {
+      color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-color {
+      color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-color {
+      color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-color {
+      color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-color {
+      color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-color {
+      color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-color {
+      color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-color {
+      color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-background-color {
+      background-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-background-color {
+      background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-background-color {
+      background-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-background-color {
+      background-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-background-color {
+      background-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-background-color {
+      background-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-background-color {
+      background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-background-color {
+      background-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-border-color {
+      border-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-border-color {
+      border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-border-color {
+      border-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-border-color {
+      border-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-border-color {
+      border-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-border-color {
+      border-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-border-color {
+      border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-border-color {
+      border-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+      background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+    }
+
+    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+      background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+    }
+
+    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+    }
+
+    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+      background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+    }
+
+    .has-cool-to-warm-spectrum-gradient-background {
+      background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+    }
+
+    .has-blush-light-purple-gradient-background {
+      background: var(--wp--preset--gradient--blush-light-purple) !important;
+    }
+
+    .has-blush-bordeaux-gradient-background {
+      background: var(--wp--preset--gradient--blush-bordeaux) !important;
+    }
+
+    .has-luminous-dusk-gradient-background {
+      background: var(--wp--preset--gradient--luminous-dusk) !important;
+    }
+
+    .has-pale-ocean-gradient-background {
+      background: var(--wp--preset--gradient--pale-ocean) !important;
+    }
+
+    .has-electric-grass-gradient-background {
+      background: var(--wp--preset--gradient--electric-grass) !important;
+    }
+
+    .has-midnight-gradient-background {
+      background: var(--wp--preset--gradient--midnight) !important;
+    }
+
+    .has-small-font-size {
+      font-size: var(--wp--preset--font-size--small) !important;
+    }
+
+    .has-medium-font-size {
+      font-size: var(--wp--preset--font-size--medium) !important;
+    }
+
+    .has-large-font-size {
+      font-size: var(--wp--preset--font-size--large) !important;
+    }
+
+    .has-x-large-font-size {
+      font-size: var(--wp--preset--font-size--x-large) !important;
+    }
+
+    .wp-block-navigation a:where(:not(.wp-element-button)) {
+      color: inherit;
+    }
+
+    :where(.wp-block-post-template.is-layout-flex) {
+      gap: 1.25em;
+    }
+
+    :where(.wp-block-post-template.is-layout-grid) {
+      gap: 1.25em;
+    }
+
+    :where(.wp-block-columns.is-layout-flex) {
+      gap: 2em;
+    }
+
+    :where(.wp-block-columns.is-layout-grid) {
+      gap: 2em;
+    }
+
+    .wp-block-pullquote {
+      font-size: 1.5em;
+      line-height: 1.6;
+    }
+  </style>
+  <link rel='stylesheet'
+    href='./css/export-wp-page-to-static-html-pro-premium-public-css-export-wp-page-to-static-html-public.css'>
+  <link rel='stylesheet' href='./css/embedpress-assets-css-embedpress.css'>
+  <link rel='stylesheet' href='./css/salient-social-css-style.css'>
+  <style id='salient-social-inline-css' type='text/css'>
+    .sharing-default-minimal .nectar-love.loved,
+    body .nectar-social[data-color-override="override"].fixed>a:before,
+    body .nectar-social[data-color-override="override"].fixed .nectar-social-inner a,
+    .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:hover,
+    .nectar-social.vertical[data-color-override="override"] .nectar-social-inner a:hover {
+      background-color: #ffc514;
+    }
+
+    .nectar-social.hover .nectar-love.loved,
+    .nectar-social.hover>.nectar-love-button a:hover,
+    .nectar-social[data-color-override="override"].hover>div a:hover,
+    #single-below-header .nectar-social[data-color-override="override"].hover>div a:hover,
+    .nectar-social[data-color-override="override"].hover .share-btn:hover,
+    .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a {
+      border-color: #ffc514;
+    }
+
+    #single-below-header .nectar-social.hover .nectar-love.loved i,
+    #single-below-header .nectar-social.hover[data-color-override="override"] a:hover,
+    #single-below-header .nectar-social.hover[data-color-override="override"] a:hover i,
+    #single-below-header .nectar-social.hover .nectar-love-button a:hover i,
+    .nectar-love:hover i,
+    .hover .nectar-love:hover .total_loves,
+    .nectar-love.loved i,
+    .nectar-social.hover .nectar-love.loved .total_loves,
+    .nectar-social.hover .share-btn:hover,
+    .nectar-social[data-color-override="override"].hover .nectar-social-inner a:hover,
+    .nectar-social[data-color-override="override"].hover>div:hover span,
+    .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:not(:hover) i,
+    .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:not(:hover) {
+      color: #ffc514;
+    }
+  </style>
+  <link rel='stylesheet' href='./css/salient-css-font-awesome-legacy.min.css'>
+  <link rel='stylesheet' href='./css/salient-css-build-grid-system.css'>
+  <link rel='stylesheet' href='./css/salient-css-build-style.css'>
+  <link rel='stylesheet' href='./css/salient-css-build-single.css'>
+  <link rel='stylesheet' id='nectar_default_font_open_sans-css'
+    href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700&#038;subset=latin%2Clatin-ext'
+    type='text/css' media='all' />
+  <link rel='stylesheet' href='./css/salient-css-build-responsive.css'>
+  <link rel='stylesheet' href='./css/salient-css-build-skin-material.css'>
+  <link rel='stylesheet' href='./css/salient-menu-dynamic.css'>
+  <link rel='stylesheet' href='./css/js_composer_salient-assets-css-js_composer.min.css'>
+  <link rel='stylesheet' href='./css/dashicons.min.css'>
+  <link rel='stylesheet' href='./css/embedpress-assets-css-plyr.css'>
+  <link rel='stylesheet' href='./css/salient-css-salient-dynamic-styles.css'>
+  <style id='dynamic-css-inline-css' type='text/css'>
+    #page-header-bg[data-post-hs="default_minimal"] .inner-wrap {
+      text-align: center
+    }
+
+    #page-header-bg[data-post-hs="default_minimal"] .inner-wrap>a,
+    .material #page-header-bg.fullscreen-header .inner-wrap>a {
+      color: #fff;
+      font-weight: 600;
+      border: var(--nectar-border-thickness) solid rgba(255, 255, 255, 0.4);
+      padding: 4px 10px;
+      margin: 5px 6px 0 5px;
+      display: inline-block;
+      transition: all 0.2s ease;
+      -webkit-transition: all 0.2s ease;
+      font-size: 14px;
+      line-height: 18px
+    }
+
+    body.material #page-header-bg.fullscreen-header .inner-wrap>a {
+      margin-bottom: 15px;
+    }
+
+    body.material #page-header-bg.fullscreen-header .inner-wrap>a {
+      border: none;
+      padding: 6px 10px
+    }
+
+    body[data-button-style^="rounded"] #page-header-bg[data-post-hs="default_minimal"] .inner-wrap>a,
+    body[data-button-style^="rounded"].material #page-header-bg.fullscreen-header .inner-wrap>a {
+      border-radius: 100px
+    }
+
+    body.single [data-post-hs="default_minimal"] #single-below-header span,
+    body.single .heading-title[data-header-style="default_minimal"] #single-below-header span {
+      line-height: 14px;
+    }
+
+    #page-header-bg[data-post-hs="default_minimal"] #single-below-header {
+      text-align: center;
+      position: relative;
+      z-index: 100
+    }
+
+    #page-header-bg[data-post-hs="default_minimal"] #single-below-header span {
+      float: none;
+      display: inline-block
+    }
+
+    #page-header-bg[data-post-hs="default_minimal"] .inner-wrap>a:hover,
+    #page-header-bg[data-post-hs="default_minimal"] .inner-wrap>a:focus {
+      border-color: transparent
+    }
+
+    #page-header-bg.fullscreen-header .avatar,
+    #page-header-bg[data-post-hs="default_minimal"] .avatar {
+      border-radius: 100%
+    }
+
+    #page-header-bg.fullscreen-header .meta-author span,
+    #page-header-bg[data-post-hs="default_minimal"] .meta-author span {
+      display: block
+    }
+
+    #page-header-bg.fullscreen-header .meta-author img {
+      margin-bottom: 0;
+      height: 50px;
+      width: auto
+    }
+
+    #page-header-bg[data-post-hs="default_minimal"] .meta-author img {
+      margin-bottom: 0;
+      height: 40px;
+      width: auto
+    }
+
+    #page-header-bg[data-post-hs="default_minimal"] .author-section {
+      position: absolute;
+      bottom: 30px
+    }
+
+    #page-header-bg.fullscreen-header .meta-author,
+    #page-header-bg[data-post-hs="default_minimal"] .meta-author {
+      font-size: 18px
+    }
+
+    #page-header-bg.fullscreen-header .author-section .meta-date,
+    #page-header-bg[data-post-hs="default_minimal"] .author-section .meta-date {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.8)
+    }
+
+    #page-header-bg.fullscreen-header .author-section .meta-date i {
+      font-size: 12px
+    }
+
+    #page-header-bg[data-post-hs="default_minimal"] .author-section .meta-date i {
+      font-size: 11px;
+      line-height: 14px
+    }
+
+    #page-header-bg[data-post-hs="default_minimal"] .author-section .avatar-post-info {
+      position: relative;
+      top: -5px
+    }
+
+    #page-header-bg.fullscreen-header .author-section a,
+    #page-header-bg[data-post-hs="default_minimal"] .author-section a {
+      display: block;
+      margin-bottom: -2px
+    }
+
+    #page-header-bg[data-post-hs="default_minimal"] .author-section a {
+      font-size: 14px;
+      line-height: 14px
+    }
+
+    #page-header-bg.fullscreen-header .author-section a:hover,
+    #page-header-bg[data-post-hs="default_minimal"] .author-section a:hover {
+      color: rgba(255, 255, 255, 0.85) !important
+    }
+
+    #page-header-bg.fullscreen-header .author-section,
+    #page-header-bg[data-post-hs="default_minimal"] .author-section {
+      width: 100%;
+      z-index: 10;
+      text-align: center
+    }
+
+    #page-header-bg.fullscreen-header .author-section {
+      margin-top: 25px;
+    }
+
+    #page-header-bg.fullscreen-header .author-section span,
+    #page-header-bg[data-post-hs="default_minimal"] .author-section span {
+      padding-left: 0;
+      line-height: 20px;
+      font-size: 20px
+    }
+
+    #page-header-bg.fullscreen-header .author-section .avatar-post-info,
+    #page-header-bg[data-post-hs="default_minimal"] .author-section .avatar-post-info {
+      margin-left: 10px
+    }
+
+    #page-header-bg.fullscreen-header .author-section .avatar-post-info,
+    #page-header-bg.fullscreen-header .author-section .meta-author,
+    #page-header-bg[data-post-hs="default_minimal"] .author-section .avatar-post-info,
+    #page-header-bg[data-post-hs="default_minimal"] .author-section .meta-author {
+      text-align: left;
+      display: inline-block;
+      top: 9px
+    }
+
+    @media only screen and (min-width :690px) and (max-width :999px) {
+      body.single-post #page-header-bg[data-post-hs="default_minimal"] {
+        padding-top: 10%;
+        padding-bottom: 10%;
+      }
+    }
+
+    @media only screen and (max-width :690px) {
+
+      #ajax-content-wrap #page-header-bg[data-post-hs="default_minimal"] #single-below-header span:not(.rich-snippet-hidden),
+      #ajax-content-wrap .row.heading-title[data-header-style="default_minimal"] .col.section-title span.meta-category {
+        display: inline-block;
+      }
+
+      .container-wrap[data-remove-post-comment-number="0"][data-remove-post-author="0"][data-remove-post-date="0"] .heading-title[data-header-style="default_minimal"] #single-below-header>span,
+      #page-header-bg[data-post-hs="default_minimal"] .span_6[data-remove-post-comment-number="0"][data-remove-post-author="0"][data-remove-post-date="0"] #single-below-header>span {
+        padding: 0 8px;
+      }
+
+      .container-wrap[data-remove-post-comment-number="0"][data-remove-post-author="0"][data-remove-post-date="0"] .heading-title[data-header-style="default_minimal"] #single-below-header span,
+      #page-header-bg[data-post-hs="default_minimal"] .span_6[data-remove-post-comment-number="0"][data-remove-post-author="0"][data-remove-post-date="0"] #single-below-header span {
+        font-size: 13px;
+        line-height: 10px;
+      }
+
+      .material #page-header-bg.fullscreen-header .author-section {
+        margin-top: 5px;
+      }
+
+      #page-header-bg.fullscreen-header .author-section {
+        bottom: 20px;
+      }
+
+      #page-header-bg.fullscreen-header .author-section .meta-date:not(.updated) {
+        margin-top: -4px;
+        display: block;
+      }
+
+      #page-header-bg.fullscreen-header .author-section .avatar-post-info {
+        margin: 10px 0 0 0;
+      }
+    }
+
+    #page-header-bg h1,
+    #page-header-bg .subheader,
+    .nectar-box-roll .overlaid-content h1,
+    .nectar-box-roll .overlaid-content .subheader,
+    #page-header-bg #portfolio-nav a i,
+    body .section-title #portfolio-nav a:hover i,
+    .page-header-no-bg h1,
+    .page-header-no-bg span,
+    #page-header-bg #portfolio-nav a i,
+    #page-header-bg span,
+    #page-header-bg #single-below-header a:hover,
+    #page-header-bg #single-below-header a:focus,
+    #page-header-bg.fullscreen-header .author-section a {
+      color: #ffffff !important;
+    }
+
+    body #page-header-bg .pinterest-share i,
+    body #page-header-bg .facebook-share i,
+    body #page-header-bg .linkedin-share i,
+    body #page-header-bg .twitter-share i,
+    body #page-header-bg .google-plus-share i,
+    body #page-header-bg .icon-salient-heart,
+    body #page-header-bg .icon-salient-heart-2 {
+      color: #ffffff;
+    }
+
+    #page-header-bg[data-post-hs="default_minimal"] .inner-wrap>a:not(:hover) {
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .single #page-header-bg #single-below-header>span {
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    body .section-title #portfolio-nav a:hover i {
+      opacity: 0.75;
+    }
+
+    .single #page-header-bg .blog-title #single-meta .nectar-social.hover>div a,
+    .single #page-header-bg .blog-title #single-meta>div a,
+    .single #page-header-bg .blog-title #single-meta ul .n-shortcode a,
+    #page-header-bg .blog-title #single-meta .nectar-social.hover .share-btn {
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .single #page-header-bg .blog-title #single-meta .nectar-social.hover>div a:hover,
+    #page-header-bg .blog-title #single-meta .nectar-social.hover .share-btn:hover,
+    .single #page-header-bg .blog-title #single-meta div>a:hover,
+    .single #page-header-bg .blog-title #single-meta ul .n-shortcode a:hover,
+    .single #page-header-bg .blog-title #single-meta ul li:not(.meta-share-count):hover>a {
+      border-color: rgba(255, 255, 255, 1);
+    }
+
+    .single #page-header-bg #single-meta div span,
+    .single #page-header-bg #single-meta>div a,
+    .single #page-header-bg #single-meta>div i {
+      color: #ffffff !important;
+    }
+
+    .single #page-header-bg #single-meta ul .meta-share-count .nectar-social a i {
+      color: rgba(255, 255, 255, 0.7) !important;
+    }
+
+    .single #page-header-bg #single-meta ul .meta-share-count .nectar-social a:hover i {
+      color: rgba(255, 255, 255, 1) !important;
+    }
+
+    .no-rgba #header-space {
+      display: none;
+    }
+
+    @media only screen and (max-width:999px) {
+      body #header-space[data-header-mobile-fixed="1"] {
+        display: none;
+      }
+
+      #header-outer[data-mobile-fixed="false"] {
+        position: absolute;
+      }
+    }
+
+    @media only screen and (max-width:999px) {
+      body:not(.nectar-no-flex-height) #header-space[data-secondary-header-display="full"]:not([data-header-mobile-fixed="false"]) {
+        display: block !important;
+        margin-bottom: -50px;
+      }
+
+      #header-space[data-secondary-header-display="full"][data-header-mobile-fixed="false"] {
+        display: none;
+      }
+    }
+
+    @media only screen and (min-width:1000px) {
+      #header-space {
+        display: none;
+      }
+
+      .nectar-slider-wrap.first-section,
+      .parallax_slider_outer.first-section,
+      .full-width-content.first-section,
+      .parallax_slider_outer.first-section .swiper-slide .content,
+      .nectar-slider-wrap.first-section .swiper-slide .content,
+      #page-header-bg,
+      .nder-page-header,
+      #page-header-wrap,
+      .full-width-section.first-section {
+        margin-top: 0 !important;
+      }
+
+      body #page-header-bg,
+      body #page-header-wrap {
+        height: 126px;
+      }
+
+      body #search-outer {
+        z-index: 100000;
+      }
+    }
+
+    @media only screen and (min-width:1000px) {
+
+      #page-header-wrap.fullscreen-header,
+      #page-header-wrap.fullscreen-header #page-header-bg,
+      html:not(.nectar-box-roll-loaded) .nectar-box-roll>#page-header-bg.fullscreen-header,
+      .nectar_fullscreen_zoom_recent_projects,
+      #nectar_fullscreen_rows:not(.afterLoaded)>div {
+        height: 100vh;
+      }
+
+      .wpb_row.vc_row-o-full-height.top-level,
+      .wpb_row.vc_row-o-full-height.top-level>.col.span_12 {
+        min-height: 100vh;
+      }
+
+      #page-header-bg[data-alignment-v="middle"] .span_6 .inner-wrap,
+      #page-header-bg[data-alignment-v="top"] .span_6 .inner-wrap,
+      .blog-archive-header.color-bg .container {
+        padding-top: 123px;
+      }
+
+      #page-header-wrap.container #page-header-bg .span_6 .inner-wrap {
+        padding-top: 0;
+      }
+
+      .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),
+      .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container {
+        height: calc(100vh + 2px) !important;
+      }
+
+      .admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),
+      .admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container {
+        height: calc(100vh - 30px) !important;
+      }
+    }
+
+    @media only screen and (max-width:999px) {
+
+      #page-header-bg[data-alignment-v="middle"]:not(.fullscreen-header) .span_6 .inner-wrap,
+      #page-header-bg[data-alignment-v="top"] .span_6 .inner-wrap,
+      .blog-archive-header.color-bg .container {
+        padding-top: 54px;
+      }
+
+      .vc_row.top-level.full-width-section:not(.full-width-ns)>.span_12,
+      #page-header-bg[data-alignment-v="bottom"] .span_6 .inner-wrap {
+        padding-top: 24px;
+      }
+    }
+
+    @media only screen and (max-width:690px) {
+      .vc_row.top-level.full-width-section:not(.full-width-ns)>.span_12 {
+        padding-top: 54px;
+      }
+
+      .vc_row.top-level.full-width-content .nectar-recent-posts-single_featured .recent-post-container>.inner-wrap {
+        padding-top: 24px;
+      }
+    }
+
+    @media only screen and (max-width:999px) {
+
+      .full-width-ns .nectar-slider-wrap .swiper-slide[data-y-pos="middle"] .content,
+      .full-width-ns .nectar-slider-wrap .swiper-slide[data-y-pos="top"] .content {
+        padding-top: 30px;
+      }
+    }
+
+    @media only screen and (max-width:999px) {
+      .using-mobile-browser #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"])>div {
+        height: calc(100vh - 76px);
+      }
+
+      .using-mobile-browser .wpb_row.vc_row-o-full-height.top-level,
+      .using-mobile-browser .wpb_row.vc_row-o-full-height.top-level>.col.span_12,
+      [data-permanent-transparent="1"].using-mobile-browser .wpb_row.vc_row-o-full-height.top-level,
+      [data-permanent-transparent="1"].using-mobile-browser .wpb_row.vc_row-o-full-height.top-level>.col.span_12 {
+        min-height: calc(100vh - 76px);
+      }
+
+      html:not(.nectar-box-roll-loaded) .nectar-box-roll>#page-header-bg.fullscreen-header,
+      .nectar_fullscreen_zoom_recent_projects,
+      .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),
+      .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,
+      #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"])>div {
+        height: calc(100vh - 1px);
+      }
+
+      .wpb_row.vc_row-o-full-height.top-level,
+      .wpb_row.vc_row-o-full-height.top-level>.col.span_12 {
+        min-height: calc(100vh - 1px);
+      }
+
+      body[data-transparent-header="false"] #ajax-content-wrap.no-scroll {
+        min-height: calc(100vh - 1px);
+        height: calc(100vh - 1px);
+      }
+    }
+
+    .screen-reader-text,
+    .nectar-skip-to-content:not(:focus) {
+      border: 0;
+      clip: rect(1px, 1px, 1px, 1px);
+      clip-path: inset(50%);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute !important;
+      width: 1px;
+      word-wrap: normal !important;
+    }
+
+    .row .col img:not([srcset]) {
+      width: auto;
+    }
+
+    .row .col img.img-with-animation.nectar-lazy:not([srcset]) {
+      width: 100%;
+    }
+  </style>
+  <link rel='stylesheet' id='redux-google-fonts-salient_redux-css'
+    href='http://fonts.googleapis.com/css?family=Jost&#038;ver=6.4.1' type='text/css' media='all' />
+  <script>
+    /* <![CDATA[ */
+    var rcewpp = {
+      "ajax_url": "http://localhost/portfolio/wp-admin/admin-ajax.php",
+      "nonce": "823fd68b4a",
+      "home_url": "http://localhost/portfolio/",
+      "settings_icon": 'http://localhost/portfolio/wp-content/plugins/export-wp-page-to-static-html-pro-premium/admin/images/settings.png',
+      "settings_hover_icon": 'http://localhost/portfolio/wp-content/plugins/export-wp-page-to-static-html-pro-premium/admin/images/settings_hover.png'
+    };
+    /* ]]\> */
+  </script>
+  <script type="text/javascript" src="./js/jquery.min.js" id="jquery-core-js"></script>
+  <script type="text/javascript" src="./js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+  <script type="text/javascript" src="./js/clipboardv201.min.js" id="code-snippet-dm-dm-clipboard-js"></script>
+  <script type="text/javascript" src="./js/prism.js" id="code-snippet-dm-dm-prism-js"></script>
+  <script type="text/javascript" src="./js/manually-start-prism.js"
+    id="code-snippet-dm-dm-manually-start-prism-js"></script>
+  <script type="text/javascript" src="./js/code-snippet-dm-public.js" id="code-snippet-dm-js"></script>
+  <script type="text/javascript" src="./js/export-wp-page-to-static-html-public.js"
+    id="export-wp-page-to-static-html-js"></script>
+  <script type="text/javascript" src="./js/plyr.polyfilled.js" id="plyr.polyfilled-js"></script>
+  <link rel="https://api.w.org/" href="http://localhost/portfolio/wp-json/" />
+  <link rel="alternate" type="application/json" href="http://localhost/portfolio/wp-json/wp/v2/posts/1990" />
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/portfolio/xmlrpc.php?rsd" />
+  <meta name="generator" content="WordPress 6.4.1" />
+  <link rel="canonical" href="./web-design-journey-a-guide-for-beginners.html" />
+  <link rel='shortlink' href='http://localhost/portfolio/?p=1990' />
+  <link rel="alternate" type="application/json+oembed"
+    href="http://localhost/portfolio/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fportfolio%2Fweb-design-journey-a-guide-for-beginners%2F" />
+  <link rel="alternate" type="text/xml+oembed"
+    href="http://localhost/portfolio/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fportfolio%2Fweb-design-journey-a-guide-for-beginners%2F&#038;format=xml" />
+  <script
+    type="text/javascript"> var root = document.getElementsByTagName("html")[0]; root.setAttribute("class", "js"); </script>
+  <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+  <noscript>
+    <style>
+      .wpb_animate_when_almost_visible {
+        opacity: 1;
+      }
+    </style>
+  </noscript>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-34WFMXV275"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-34WFMXV275');
+</script>
+
+<body
+  class="post-template-default single single-post postid-1990 single-format-standard material wpb-js-composer js-comp-ver-6.13.1 vc_responsive"
+  data-footer-reveal="false" data-footer-reveal-shadow="none" data-header-format="default" data-body-border="off"
+  data-boxed-style="" data-header-breakpoint="1000" data-dropdown-style="minimal" data-cae="easeOutCubic" data-cad="750"
+  data-megamenu-width="contained" data-aie="none" data-ls="fancybox" data-apte="standard" data-hhun="0"
+  data-fancy-form-rcs="default" data-form-style="default" data-form-submit="regular" data-is="minimal"
+  data-button-style="slightly_rounded_shadow" data-user-account-button="false" data-flex-cols="true"
+  data-col-gap="default" data-header-inherit-rc="false" data-header-search="false" data-animated-anchors="true"
+  data-ajax-transitions="false" data-full-width-header="false" data-slide-out-widget-area="true"
+  data-slide-out-widget-area-style="fullscreen" data-user-set-ocm="1" data-loading-animation="none"
+  data-bg-header="true" data-responsive="1" data-ext-responsive="true" data-ext-padding="90" data-header-resize="1"
+  data-header-color="custom" data-cart="false" data-remove-m-parallax="" data-remove-m-video-bgs="" data-m-animate="0"
+  data-force-header-trans-color="light" data-smooth-scrolling="0" data-permanent-transparent="false">
+
+  <script type="text/javascript">
+    (function (window, document) {
+
+      if (navigator.userAgent.match(/(Android|iPod|iPhone|iPad|BlackBerry|IEMobile|Opera Mini)/)) {
+        document.body.className += " using-mobile-browser mobile ";
+      }
+
+      if (!("ontouchstart" in window)) {
+
+        var body = document.querySelector("body");
+        var winW = window.innerWidth;
+        var bodyW = body.clientWidth;
+
+        if (winW > bodyW + 4) {
+          body.setAttribute("style", "--scroll-bar-w: " + (winW - bodyW - 4) + "px");
+        } else {
+          body.setAttribute("style", "--scroll-bar-w: 0px");
+        }
+      }
+
+    })(window, document);
+  </script><a href="" class="nectar-skip-to-content">Skip to main content</a>
+  <div class="ocm-effect-wrap">
+    <div class="ocm-effect-wrap-inner">
+      <div id="header-space" data-header-mobile-fixed='1'></div>
+
+      <div id="header-outer" data-has-menu="false" data-has-buttons="yes" data-header-button_style="default"
+        data-using-pr-menu="false" data-mobile-fixed="1" data-ptnm="false" data-lhe="animated_underline"
+        data-user-set-bg="#ffffff" data-format="default" data-permanent-transparent="false" data-megamenu-rt="0"
+        data-remove-fixed="0" data-header-resize="1" data-cart="false" data-transparency-option=""
+        data-box-shadow="large" data-shrink-num="6" data-using-secondary="0" data-using-logo="1" data-logo-height="70"
+        data-m-logo-height="24" data-padding="28" data-full-width="false" data-condense="false"
+        data-transparent-header="true" data-transparent-shadow-helper="true" data-remove-border="true"
+        class="transparent">
+
+        <div id="search-outer" class="nectar">
+          <div id="search">
+            <div class="container">
+              <div id="search-box">
+                <div class="inner-wrap">
+                  <div class="col span_12">
+                    <form role="search" action="http://localhost/portfolio/" method="GET">
+                      <input type="text" name="s" value="" aria-label="Search" placeholder="Search" />
+
+                      <span>Hit enter to search or ESC to close</span>
+                    </form>
+                  </div><!--/span_12-->
+                </div><!--/inner-wrap-->
+              </div><!--/search-box-->
+              <div id="close"><a href=""><span class="screen-reader-text">Close Search</span>
+                  <span class="close-wrap"> <span class="close-line close-line1"></span> <span
+                      class="close-line close-line2"></span> </span> </a></div>
+            </div><!--/container-->
+          </div><!--/search-->
+        </div><!--/search-outer-->
+
+        <header id="top">
+          <div class="container">
+            <div class="row">
+              <div class="col span_3">
+                <a id="logo" href="./index.html" data-supplied-ml-starting-dark="false"
+                  data-supplied-ml-starting="false" data-supplied-ml="false">
+                  <img class="stnd skip-lazy default-logo dark-version" width="398" height="398" alt="Tech Ruso"
+                    src="./images/tech-russo-logo-blackt.png"
+                    srcset="./images/tech-russo-logo-blackt.png 1x, ./images/tech-russo-logo-blackt.png 2x" /><img
+                    class="starting-logo skip-lazy default-logo" width="398" height="398" alt="Tech Ruso"
+                    src="./images/tech-r-logo.png" srcset="./images/tech-r-logo.png 1x, ./images/tech-r-logo.png 2x" />
+                </a>
+              </div><!--/span_3-->
+
+              <div class="col span_9 col_last">
+                <div class="nectar-mobile-only mobile-header">
+                  <div class="inner"></div>
+                </div>
+                <div class="slide-out-widget-area-toggle mobile-icon fullscreen" data-custom-color="true"
+                  data-icon-animation="simple-transform">
+                  <div> <a href="" role="button" aria-label="Navigation Menu" aria-expanded="false" class="closed">
+                      <span class="screen-reader-text">Menu</span><span aria-hidden="true"> <i class="lines-button x2">
+                          <i class="lines"></i> </i> </span>
+                    </a></div>
+                </div>
+
+                <nav>
+                  <ul class="sf-menu">
+                    <li class="no-menu-assigned"><a href=""></a></li>
+                  </ul>
+                  <ul class="buttons sf-menu" data-user-set-ocm="1">
+
+                    <li class="slide-out-widget-area-toggle" data-icon-animation="simple-transform"
+                      data-custom-color="true">
+                      <div> <a href="" aria-label="Navigation Menu" aria-expanded="false" role="button" class="closed">
+                          <span class="screen-reader-text">Menu</span><span aria-hidden="true"> <i
+                              class="lines-button x2"> <i class="lines"></i> </i> </span> </a> </div>
+                    </li>
+                  </ul>
+
+                </nav>
 
 
-			</div>
-</div>
+              </div><!--/span_9-->
 
-</div>
 
-<div class="container-wrap no-sidebar" data-midnight="dark" data-remove-post-date="0" data-remove-post-author="0" data-remove-post-comment-number="0">
-	<div class="container main-content">
+            </div><!--/row-->
+          </div><!--/container-->
+        </header>
+      </div>
+      <div id="ajax-content-wrap">
+        <div class="blurred-wrap">
+          <div id="page-header-wrap" data-animate-in-effect="none" data-midnight="light" class=""
+            style="height: 550px;">
+            <div id="page-header-bg" class="not-loaded  hentry" data-post-hs="default_minimal" data-padding-amt="normal"
+              data-animate-in-effect="none" data-midnight="light" data-text-effect="" data-bg-pos="center"
+              data-alignment="left" data-alignment-v="middle" data-parallax="0" data-height="550" style="height:550px;">
+              <div class="page-header-bg-image-wrap" id="nectar-page-header-p-wrap" data-parallax-speed="fast">
+                <div class="page-header-bg-image"
+                  style="background-image: url(./images/kelly-sikkema-v9FQR4tbIq8-unsplash-scaled.jpg);"></div>
+              </div>
+              <div class="container"><img loading="lazy" class="hidden-social-img"
+                  src="./images/kelly-sikkema-v9FQR4tbIq8-unsplash-scaled.jpg"
+                  alt="Web Design Journey: A Guide for Beginners" style="display: none;" />
+                <div class="row">
+                  <div class="col span_6 section-title blog-title" data-remove-post-date="0" data-remove-post-author="0"
+                    data-remove-post-comment-number="0">
+                    <div class="inner-wrap">
 
-		
-		<div class="row">
+                      <a class="web-design" href="./category/web-design.html">Web Design</a>
+                      <h1 class="entry-title">Web Design Journey: A Guide for Beginners</h1>
 
-			
-			<div class="post-area col  span_12 col_last" role="main">
 
-			
-<article id="post-1990" class="post-1990 post type-post status-publish format-standard has-post-thumbnail category-web-design">
-  
-  <div class="inner-wrap">
 
-		<div class="post-content" data-hide-featured-media="0">
-      
-        <div class="content-inner">
-		<div id="fws_655911f138746"  data-column-margin="default" data-midnight="dark"  class="wpb_row vc_row-fluid vc_row"  style="padding-top: 0px; padding-bottom: 0px; "><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer" ><div class="row-bg viewport-desktop"  style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
-	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
-		<div class="vc_column-inner" >
-			<div class="wpb_wrapper">
-				
-<div class="wpb_text_column wpb_content_element " >
-	<div class="wpb_wrapper">
-		<h3>Introduction:</h3>
-<p>In the digital age, the ability to create captivating and user-friendly websites is a valuable skill. Web design combines creativity and technical know-how to build visually appealing and functional online experiences. If you&#8217;re a beginner eager to dive into the world of web design, this article will provide you with a roadmap to get started on your exciting journey.</p>
-<ol>
-<li><strong>Understanding the Basics: HTML and CSS</strong></li>
-</ol>
-<p>At the heart of every web page are two essential languages: HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets). HTML provides the structure of your webpage, while CSS is responsible for styling and layout. Begin by learning the basic HTML tags and how to use CSS to control colors, fonts, and spacing. Online platforms like Codecademy, W3Schools, and Mozilla Developer Network offer excellent tutorials for beginners.</p>
-<ol start="2">
-<li><strong>Responsive Design: Designing for All Devices</strong></li>
-</ol>
-<p>One of the key principles of modern web design is responsiveness. Your website should look great and function seamlessly on a variety of devices, from desktops to smartphones. Learn how to use media queries in CSS to adapt your design based on different screen sizes. This ensures a positive user experience across the ever-expanding range of devices.</p>
-<ol start="3">
-<li><strong>Choosing the Right Tools: Text Editors and Design Software</strong></li>
-</ol>
-<p>As a beginner, choosing the right tools can significantly impact your workflow. Start with a simple and user-friendly text editor for coding, such as Visual Studio Code, Atom, or Sublime Text. These editors offer features like syntax highlighting and autocompletion, making coding more efficient. Additionally, familiarize yourself with design software like Adobe XD, Figma, or Sketch for creating mockups and wireframes.</p>
-<ol start="4">
-<li><strong>Learn Basic Design Principles: Colors, Typography, and Layout</strong></li>
-</ol>
-<p>Good design goes beyond code. Understanding basic design principles is crucial for creating visually appealing websites. Experiment with color theory, learn how to choose complementary color schemes and understand the psychology behind different colors. Explore typography and discover the impact of fonts on user experience. Study layout design to create balanced and aesthetically pleasing web pages.</p>
-<ol start="5">
-<li><strong>Responsive Frameworks: Bootstrap and Beyond</strong></li>
-</ol>
-<p>Responsive frameworks like Bootstrap provide pre-built components and styles that make it easier to create a responsive and visually consistent design. Bootstrap, in particular, is beginner-friendly and widely used in the industry. Explore other frameworks like Foundation or Tailwind CSS to find the one that suits your preferences and project requirements.</p>
-<ol start="6">
-<li><strong>JavaScript: Adding Interactivity</strong></li>
-</ol>
-<p>While HTML and CSS lay the foundation, JavaScript adds interactivity to your web pages. Start by learning the basics of JavaScript, such as variables, functions, and events. As you progress, explore popular JavaScript libraries and frameworks like jQuery, React, or Vue.js. These tools will empower you to create dynamic and engaging user interfaces.</p>
-<ol start="7">
-<li><strong>Build a Portfolio: Showcase Your Work</strong></li>
-</ol>
-<p>As you gain confidence in your web design skills, start building a portfolio to showcase your projects. Your portfolio is not only a testament to your abilities but also a valuable tool for attracting potential clients or employers. Include a variety of projects that demonstrate your range, from simple static websites to more complex, interactive applications.</p>
-<h3>Conclusion:</h3>
-<p>Embarking on the journey of web design as a beginner may seem overwhelming, but with dedication and a systematic approach, you can build a strong foundation. Remember to practice regularly, seek out tutorials and resources, and stay curious about the ever-evolving world of web design. As you gain experience, you&#8217;ll find your unique style and preferences, making your mark in the exciting realm of web development. Happy coding!</p>
-	</div>
-</div>
+                      <div id="single-below-header" data-hide-on-mobile="false">
+                        <span class="meta-author vcard author"><span class="fn"><span class="author-leading">By</span>
+                            <a href="./author/admin.html" title="Posts by admin"
+                              rel="author">admin</a></span></span><span class="meta-date date published">November 16,
+                          2023</span><span class="meta-date date updated rich-snippet-hidden">November 18th,
+                          2023</span><span class="meta-comment-count"><a
+                            href="./web-design-journey-a-guide-for-beginners.html">No Comments</a></span>
+                      </div><!--/single-below-header-->
+
+                    </div>
+
+                  </div><!--/section-title-->
+                </div><!--/row-->
 
 
 
 
-			</div> 
-		</div>
-	</div> 
-</div></div>
-</div>        
-      </div><!--/post-content-->
-      
-    </div><!--/inner-wrap-->
-    
-</article>
-<div id="author-bio" class="" data-has-tags="false">
+              </div>
+            </div>
 
-	<div class="span_12">
+          </div>
 
-	<img alt='admin' src='http://2.gravatar.com/avatar/268ab8baff41532166b0a3de7b3ff00b?s=80&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/268ab8baff41532166b0a3de7b3ff00b?s=160&#038;d=mm&#038;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' loading='lazy' decoding='async'/>	<div id="author-info">
-
-	  <h3 class="nectar-link-underline-effect nectar-author-info-title"><span></span>
-
-		<a href="./author/admin.html">admin</a>		</h3>
-	  <p></p>
-
-	</div>
-
-	
-	<div class="clear"></div>
-
-	</div><!--/span_12-->
-
-</div><!--/author-bio-->
-
-		</div><!--/post-area-->
-
-			
-		</div><!--/row-->
-
-		<div class="row">
-
-			<div data-post-header-style="default_minimal" class="blog_next_prev_buttons vc_row-fluid wpb_row full-width-content standard_section" data-style="fullwidth_next_prev" data-midnight="light"><ul class="controls"><li class="previous-post hidden"></li><li class="next-post  only"><div class="post-bg-img" style="background-image: url(http://localhost/portfolio/wp-content/uploads/2023/11/nisonco-pr-and-seo-yIRdUr6hIvQ-unsplash-scaled.jpg);"></div><a href="./avoiding-common-seo-mistakes-a-guide-to-online-success.html" aria-label="Avoiding Common SEO Mistakes: A Guide to Online Success"></a><h3><span>Next Post</span><span class="text">Avoiding Common SEO Mistakes: A Guide to Online Success
-						 <svg class="next-arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 39 12"><line class="top" x1="23" y1="-0.5" x2="29.5" y2="6.5" stroke="#ffffff;"></line><line class="bottom" x1="23" y1="12.5" x2="29.5" y2="5.5" stroke="#ffffff;"></line></svg><span class="line"></span></span></h3></li></ul>
-			 </div>
-
-			 
-			<div class="comments-section" data-author-bio="true">
-				
-<div class="comment-wrap " data-midnight="dark" data-comments-open="true">
+          <div class="container-wrap no-sidebar" data-midnight="dark" data-remove-post-date="0"
+            data-remove-post-author="0" data-remove-post-comment-number="0">
+            <div class="container main-content">
 
 
-			<!-- If comments are open, but there are no comments. -->
+              <div class="row">
 
-	 
 
-	<div id="respond" class="comment-respond">
-		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/portfolio/web-design-journey-a-guide-for-beginners/" style="display:none;">Cancel Reply</a></small></h3><form action="http://localhost/portfolio/wp-comments-post.php" method="post" id="commentform" class="comment-form"><div class="row"><div class="col span_12"><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></div></div><div class="row"> <div class="col span_4"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" /></div>
-<div class="col span_4"><label for="email">Email <span class="required">*</span></label><input id="email" name="email" type="text" value="" size="30" /></div>
-<div class="col span_4 col_last"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></div></div>
-<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
-<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit Comment" /> <input type='hidden' name='comment_post_ID' value='1990' id='comment_post_ID' />
-<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p></form>	</div><!-- #respond -->
-	
-</div>			</div>
+                <div class="post-area col  span_12 col_last" role="main">
 
-		</div><!--/row-->
 
-	</div><!--/container main-content-->
-	</div><!--/container-wrap-->
+                  <article id="post-1990"
+                    class="post-1990 post type-post status-publish format-standard has-post-thumbnail category-web-design">
 
-<div class="nectar-social fixed" data-position="" data-rm-love="0" data-color-override="override"><a href=""><i class="icon-default-style steadysets-icon-share"></i></a><div class="nectar-social-inner"><a class='facebook-share nectar-sharing' href='#' title='Share this'> <i class='fa fa-facebook'></i> <span class='social-text'>Share</span> </a><a class='twitter-share nectar-sharing' href='#' title='Tweet this'> <i class='fa fa-twitter'></i> <span class='social-text'>Tweet</span> </a><a class='linkedin-share nectar-sharing' href='#' title='Share this'> <i class='fa fa-linkedin'></i> <span class='social-text'>Share</span> </a><a class='pinterest-share nectar-sharing' href='#' title='Pin this'> <i class='fa fa-pinterest'></i> <span class='social-text'>Pin</span> </a></div></div><style>#ajax-content-wrap .vc_row.inner_row.left_padding_30pct .row_col_wrap_12_inner,
+                    <div class="inner-wrap">
+
+                      <div class="post-content" data-hide-featured-media="0">
+
+                        <div class="content-inner">
+                          <div id="fws_655911f138746" data-column-margin="default" data-midnight="dark"
+                            class="wpb_row vc_row-fluid vc_row" style="padding-top: 0px; padding-bottom: 0px; ">
+                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay=""
+                              data-bg-overlay="false">
+                              <div class="inner-wrap row-bg-layer">
+                                <div class="row-bg viewport-desktop" style=""></div>
+                              </div>
+                            </div>
+                            <div class="row_col_wrap_12 col span_12 dark left">
+                              <div
+                                class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "
+                                data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1"
+                                data-animation="" data-delay="0">
+                                <div class="vc_column-inner">
+                                  <div class="wpb_wrapper">
+
+                                    <div class="wpb_text_column wpb_content_element ">
+                                      <div class="wpb_wrapper">
+                                        <h3>Introduction:</h3>
+                                        <p>In the digital age, the ability to create captivating and user-friendly
+                                          websites is a valuable skill. Web design combines creativity and technical
+                                          know-how to build visually appealing and functional online experiences. If
+                                          you&#8217;re a beginner eager to dive into the world of web design, this
+                                          article will provide you with a roadmap to get started on your exciting
+                                          journey.</p>
+                                        <ol>
+                                          <li><strong>Understanding the Basics: HTML and CSS</strong></li>
+                                        </ol>
+                                        <p>At the heart of every web page are two essential languages: HTML (Hypertext
+                                          Markup Language) and CSS (Cascading Style Sheets). HTML provides the structure
+                                          of your webpage, while CSS is responsible for styling and layout. Begin by
+                                          learning the basic HTML tags and how to use CSS to control colors, fonts, and
+                                          spacing. Online platforms like Codecademy, W3Schools, and Mozilla Developer
+                                          Network offer excellent tutorials for beginners.</p>
+                                        <ol start="2">
+                                          <li><strong>Responsive Design: Designing for All Devices</strong></li>
+                                        </ol>
+                                        <p>One of the key principles of modern web design is responsiveness. Your
+                                          website should look great and function seamlessly on a variety of devices,
+                                          from desktops to smartphones. Learn how to use media queries in CSS to adapt
+                                          your design based on different screen sizes. This ensures a positive user
+                                          experience across the ever-expanding range of devices.</p>
+                                        <ol start="3">
+                                          <li><strong>Choosing the Right Tools: Text Editors and Design
+                                              Software</strong></li>
+                                        </ol>
+                                        <p>As a beginner, choosing the right tools can significantly impact your
+                                          workflow. Start with a simple and user-friendly text editor for coding, such
+                                          as Visual Studio Code, Atom, or Sublime Text. These editors offer features
+                                          like syntax highlighting and autocompletion, making coding more efficient.
+                                          Additionally, familiarize yourself with design software like Adobe XD, Figma,
+                                          or Sketch for creating mockups and wireframes.</p>
+                                        <ol start="4">
+                                          <li><strong>Learn Basic Design Principles: Colors, Typography, and
+                                              Layout</strong></li>
+                                        </ol>
+                                        <p>Good design goes beyond code. Understanding basic design principles is
+                                          crucial for creating visually appealing websites. Experiment with color
+                                          theory, learn how to choose complementary color schemes and understand the
+                                          psychology behind different colors. Explore typography and discover the impact
+                                          of fonts on user experience. Study layout design to create balanced and
+                                          aesthetically pleasing web pages.</p>
+                                        <ol start="5">
+                                          <li><strong>Responsive Frameworks: Bootstrap and Beyond</strong></li>
+                                        </ol>
+                                        <p>Responsive frameworks like Bootstrap provide pre-built components and styles
+                                          that make it easier to create a responsive and visually consistent design.
+                                          Bootstrap, in particular, is beginner-friendly and widely used in the
+                                          industry. Explore other frameworks like Foundation or Tailwind CSS to find the
+                                          one that suits your preferences and project requirements.</p>
+                                        <ol start="6">
+                                          <li><strong>JavaScript: Adding Interactivity</strong></li>
+                                        </ol>
+                                        <p>While HTML and CSS lay the foundation, JavaScript adds interactivity to your
+                                          web pages. Start by learning the basics of JavaScript, such as variables,
+                                          functions, and events. As you progress, explore popular JavaScript libraries
+                                          and frameworks like jQuery, React, or Vue.js. These tools will empower you to
+                                          create dynamic and engaging user interfaces.</p>
+                                        <ol start="7">
+                                          <li><strong>Build a Portfolio: Showcase Your Work</strong></li>
+                                        </ol>
+                                        <p>As you gain confidence in your web design skills, start building a portfolio
+                                          to showcase your projects. Your portfolio is not only a testament to your
+                                          abilities but also a valuable tool for attracting potential clients or
+                                          employers. Include a variety of projects that demonstrate your range, from
+                                          simple static websites to more complex, interactive applications.</p>
+                                        <h3>Conclusion:</h3>
+                                        <p>Embarking on the journey of web design as a beginner may seem overwhelming,
+                                          but with dedication and a systematic approach, you can build a strong
+                                          foundation. Remember to practice regularly, seek out tutorials and resources,
+                                          and stay curious about the ever-evolving world of web design. As you gain
+                                          experience, you&#8217;ll find your unique style and preferences, making your
+                                          mark in the exciting realm of web development. Happy coding!</p>
+                                      </div>
+                                    </div>
+
+
+
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div><!--/post-content-->
+
+                    </div><!--/inner-wrap-->
+
+                  </article>
+                  <div id="author-bio" class="" data-has-tags="false">
+
+                    <div class="span_12">
+
+                      <img alt='admin'
+                        src='http://2.gravatar.com/avatar/268ab8baff41532166b0a3de7b3ff00b?s=80&#038;d=mm&#038;r=g'
+                        srcset='http://2.gravatar.com/avatar/268ab8baff41532166b0a3de7b3ff00b?s=160&#038;d=mm&#038;r=g 2x'
+                        class='avatar avatar-80 photo' height='80' width='80' loading='lazy' decoding='async' />
+                      <div id="author-info">
+
+                        <h3 class="nectar-link-underline-effect nectar-author-info-title"><span></span>
+
+                          <a href="./author/admin.html">admin</a>
+                        </h3>
+                        <p></p>
+
+                      </div>
+
+
+                      <div class="clear"></div>
+
+                    </div><!--/span_12-->
+
+                  </div><!--/author-bio-->
+
+                </div><!--/post-area-->
+
+
+              </div><!--/row-->
+
+              <div class="row">
+
+                <div data-post-header-style="default_minimal"
+                  class="blog_next_prev_buttons vc_row-fluid wpb_row full-width-content standard_section"
+                  data-style="fullwidth_next_prev" data-midnight="light">
+                  <ul class="controls">
+                    <li class="previous-post hidden"></li>
+                    <li class="next-post  only">
+                      <div class="post-bg-img"
+                        style="background-image: url(http://localhost/portfolio/wp-content/uploads/2023/11/nisonco-pr-and-seo-yIRdUr6hIvQ-unsplash-scaled.jpg);">
+                      </div><a href="./avoiding-common-seo-mistakes-a-guide-to-online-success.html"
+                        aria-label="Avoiding Common SEO Mistakes: A Guide to Online Success"></a>
+                      <h3><span>Next Post</span><span class="text">Avoiding Common SEO Mistakes: A Guide to Online
+                          Success
+                          <svg class="next-arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 39 12">
+                            <line class="top" x1="23" y1="-0.5" x2="29.5" y2="6.5" stroke="#ffffff;"></line>
+                            <line class="bottom" x1="23" y1="12.5" x2="29.5" y2="5.5" stroke="#ffffff;"></line>
+                          </svg><span class="line"></span></span></h3>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <div class="comments-section" data-author-bio="true">
+
+                  <div class="comment-wrap " data-midnight="dark" data-comments-open="true">
+
+
+                    <!-- If comments are open, but there are no comments. -->
+
+
+
+                    <div id="respond" class="comment-respond">
+                      <h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow"
+                            id="cancel-comment-reply-link" href="/portfolio/web-design-journey-a-guide-for-beginners/"
+                            style="display:none;">Cancel Reply</a></small></h3>
+                      <form action="http://localhost/portfolio/wp-comments-post.php" method="post" id="commentform"
+                        class="comment-form">
+                        <div class="row">
+                          <div class="col span_12"><textarea id="comment" name="comment" cols="45" rows="8"
+                              aria-required="true"></textarea></div>
+                        </div>
+                        <div class="row">
+                          <div class="col span_4"><label for="author">Name <span class="required">*</span></label>
+                            <input id="author" name="author" type="text" value="" size="30" /></div>
+                          <div class="col span_4"><label for="email">Email <span class="required">*</span></label><input
+                              id="email" name="email" type="text" value="" size="30" /></div>
+                          <div class="col span_4 col_last"><label for="url">Website</label><input id="url" name="url"
+                              type="text" value="" size="30" /></div>
+                        </div>
+                        <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent"
+                            name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label
+                            for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the
+                            next time I comment.</label></p>
+                        <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit"
+                            value="Submit Comment" /> <input type='hidden' name='comment_post_ID' value='1990'
+                            id='comment_post_ID' />
+                          <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                        </p>
+                      </form>
+                    </div><!-- #respond -->
+
+                  </div>
+                </div>
+
+              </div><!--/row-->
+
+            </div><!--/container main-content-->
+          </div><!--/container-wrap-->
+
+          <div class="nectar-social fixed" data-position="" data-rm-love="0" data-color-override="override"><a
+              href=""><i class="icon-default-style steadysets-icon-share"></i></a>
+            <div class="nectar-social-inner"><a class='facebook-share nectar-sharing' href='#' title='Share this'> <i
+                  class='fa fa-facebook'></i> <span class='social-text'>Share</span> </a><a
+                class='twitter-share nectar-sharing' href='#' title='Tweet this'> <i class='fa fa-twitter'></i> <span
+                  class='social-text'>Tweet</span> </a><a class='linkedin-share nectar-sharing' href='#'
+                title='Share this'> <i class='fa fa-linkedin'></i> <span class='social-text'>Share</span> </a><a
+                class='pinterest-share nectar-sharing' href='#' title='Pin this'> <i class='fa fa-pinterest'></i> <span
+                  class='social-text'>Pin</span> </a></div>
+          </div>
+          <style>
+            #ajax-content-wrap .vc_row.inner_row.left_padding_30pct .row_col_wrap_12_inner,
             .nectar-global-section .vc_row.inner_row.left_padding_30pct .row_col_wrap_12_inner {
-            padding-left: 30%;
-          } 
-          .nectar_icon_wrap[data-style*="default"][data-color*="extra-color-gradient"] .nectar_icon i {
-            border-radius: 0!important;
-            text-align: center;
-          }
-          .nectar_icon_wrap[data-style*="default"][data-color*="extra-color-gradient"] .nectar_icon i:before {
-            vertical-align: top;
-          }
-          .nectar_icon_wrap[data-style*="default"][data-color*="extra-color-gradient"] .nectar_icon i[class*="fa-"],
-          .nectar_icon_wrap[data-style*="default"][data-color*="extra-color-gradient"] .nectar_icon i[class^="icon-"] {
-            vertical-align: baseline;
-          }
-        
-      #ajax-content-wrap .nectar-responsive-text * {
-        margin-bottom: 0;
-        color: inherit;
-      }
-      #ajax-content-wrap .nectar-responsive-text[class*="font_size"] * {
-        font-size: inherit; 
-        line-height: inherit;
-      }
-      .nectar-responsive-text.nectar-link-underline-effect a {
-        text-decoration: none;
-      }
-      .nectar-lottie-wrap.alignment_center {
-          display: flex;
-          margin: 0 auto;
-          justify-content: center;
-        }@media only screen , print { 
-             .nectar-lottie-wrap.width_desktop_50px {
+              padding-left: 30%;
+            }
+
+            .nectar_icon_wrap[data-style*="default"][data-color*="extra-color-gradient"] .nectar_icon i {
+              border-radius: 0 !important;
+              text-align: center;
+            }
+
+            .nectar_icon_wrap[data-style*="default"][data-color*="extra-color-gradient"] .nectar_icon i:before {
+              vertical-align: top;
+            }
+
+            .nectar_icon_wrap[data-style*="default"][data-color*="extra-color-gradient"] .nectar_icon i[class*="fa-"],
+            .nectar_icon_wrap[data-style*="default"][data-color*="extra-color-gradient"] .nectar_icon i[class^="icon-"] {
+              vertical-align: baseline;
+            }
+
+            #ajax-content-wrap .nectar-responsive-text * {
+              margin-bottom: 0;
+              color: inherit;
+            }
+
+            #ajax-content-wrap .nectar-responsive-text[class*="font_size"] * {
+              font-size: inherit;
+              line-height: inherit;
+            }
+
+            .nectar-responsive-text.nectar-link-underline-effect a {
+              text-decoration: none;
+            }
+
+            .nectar-lottie-wrap.alignment_center {
+              display: flex;
+              margin: 0 auto;
+              justify-content: center;
+            }
+
+            @media only screen,
+            print {
+              .nectar-lottie-wrap.width_desktop_50px {
+                width: 50px;
+              }
+            }
+
+            .nectar-lottie-wrap {
+              line-height: 0;
+            }
+
+            .nectar-lottie-wrap .nectar-lottie {
+              width: 100%;
+              height: 100%;
+            }
+
+            .wpb_wrapper.tabbed {
+              position: relative;
+            }
+
+            .nectar-circle-images.size_50px .nectar-circle-images__image {
               width: 50px;
-          }
-        }.nectar-lottie-wrap {
-        line-height: 0; 
-      }
-      .nectar-lottie-wrap .nectar-lottie {
-        width: 100%;
-        height: 100%;
-      }
-      .wpb_wrapper.tabbed {
-        position: relative; 
-      }.nectar-circle-images.size_50px .nectar-circle-images__image{
-          width: 50px;
-        }
-        .nectar-circle-images.size_50px .nectar-circle-images__image {
-          border-width: min(9px, max(3px, calc(50px / 20)));
-        }
-        .nectar-circle-images--position_overlapping.size_50px .nectar-circle-images__image:not(:last-child) {
-            margin-right: calc((50px / 5) * -1);
-          }@media only screen , print {
-              .nectar-circle-images.alignment_middle_desktop, 
+            }
+
+            .nectar-circle-images.size_50px .nectar-circle-images__image {
+              border-width: min(9px, max(3px, calc(50px / 20)));
+            }
+
+            .nectar-circle-images--position_overlapping.size_50px .nectar-circle-images__image:not(:last-child) {
+              margin-right: calc((50px / 5) * -1);
+            }
+
+            @media only screen,
+            print {
+
+              .nectar-circle-images.alignment_middle_desktop,
               .nectar-circle-images.alignment_middle_desktop .nectar-circle-images__inner {
-                  justify-content: center;
-                }
-              }.nectar-circle-images.border_color_f7f7f7 .nectar-circle-images__image {
-          border: 2px solid #f7f7f7;
-        }
-          .nectar-circle-images {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-          }
-          .nectar-circle-images__text {
-            line-height: 1; 
-          }
-          .nectar-circle-images__text h3, 
-          .nectar-circle-images__text h4, 
-          .nectar-circle-images__text h5,
-          .nectar-circle-images__text h6 {
-            margin-bottom: 0; 
-          }
-          .nectar-circle-images__text {
-            font-size: 0.85em; 
-          }
-          .nectar-circle-images--text {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          #ajax-content-wrap .nectar-inherit-h5.nectar-circle-images--text {
-            font-size: 16px;
-          }
-          
-        .nectar-circle-images__inner {
-          display: flex;
-          flex-wrap: nowrap;
-        }
-        .nectar-circle-images__image:not(.nectar-circle-images--text):before {
-          padding-bottom: 100%;
-          display: block;
-          content: " ";
-        }
-        .nectar-circle-images__image {
-          background-size: cover;
-          width: 50px;
-          background-position: center;
-          border-radius: 1000px;
-        }
-        
-                
-              .nectar_icon_wrap[data-color="extra-color-gradient-1"] .nectar_icon i,
-              .nectar_icon_wrap[data-color="extra-color-gradient-2"] .nectar_icon i {
-                display: inline-block;
+                justify-content: center;
               }
-                .nectar_icon_wrap[data-color="extra-color-gradient-1"] .nectar_icon.no-grad i,
-              .nectar_icon_wrap[data-color="extra-color-gradient-2"] .nectar_icon.no-grad i{
-                background-color:transparent!important;
-                background:none!important
-              }
-              .nectar_icon_wrap[data-color="extra-color-gradient-1"] .nectar_icon.no-grad i,
-              .nectar_icon_wrap[data-color="extra-color-gradient-2"] .nectar_icon.no-grad i{
-                -webkit-text-fill-color:initial
-              }.wpb_column.child_column.el_spacing_10px > .vc_column-inner > .wpb_wrapper > div:not(:last-child){
-          margin-bottom: 10px;
-        }#ajax-content-wrap .vc_row.inner_row.right_padding_30pct .row_col_wrap_12_inner,
+            }
+
+            .nectar-circle-images.border_color_f7f7f7 .nectar-circle-images__image {
+              border: 2px solid #f7f7f7;
+            }
+
+            .nectar-circle-images {
+              display: flex;
+              align-items: center;
+              gap: 20px;
+            }
+
+            .nectar-circle-images__text {
+              line-height: 1;
+            }
+
+            .nectar-circle-images__text h3,
+            .nectar-circle-images__text h4,
+            .nectar-circle-images__text h5,
+            .nectar-circle-images__text h6 {
+              margin-bottom: 0;
+            }
+
+            .nectar-circle-images__text {
+              font-size: 0.85em;
+            }
+
+            .nectar-circle-images--text {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+            #ajax-content-wrap .nectar-inherit-h5.nectar-circle-images--text {
+              font-size: 16px;
+            }
+
+            .nectar-circle-images__inner {
+              display: flex;
+              flex-wrap: nowrap;
+            }
+
+            .nectar-circle-images__image:not(.nectar-circle-images--text):before {
+              padding-bottom: 100%;
+              display: block;
+              content: " ";
+            }
+
+            .nectar-circle-images__image {
+              background-size: cover;
+              width: 50px;
+              background-position: center;
+              border-radius: 1000px;
+            }
+
+
+            .nectar_icon_wrap[data-color="extra-color-gradient-1"] .nectar_icon i,
+            .nectar_icon_wrap[data-color="extra-color-gradient-2"] .nectar_icon i {
+              display: inline-block;
+            }
+
+            .nectar_icon_wrap[data-color="extra-color-gradient-1"] .nectar_icon.no-grad i,
+            .nectar_icon_wrap[data-color="extra-color-gradient-2"] .nectar_icon.no-grad i {
+              background-color: transparent !important;
+              background: none !important
+            }
+
+            .nectar_icon_wrap[data-color="extra-color-gradient-1"] .nectar_icon.no-grad i,
+            .nectar_icon_wrap[data-color="extra-color-gradient-2"] .nectar_icon.no-grad i {
+              -webkit-text-fill-color: initial
+            }
+
+            .wpb_column.child_column.el_spacing_10px>.vc_column-inner>.wpb_wrapper>div:not(:last-child) {
+              margin-bottom: 10px;
+            }
+
+            #ajax-content-wrap .vc_row.inner_row.right_padding_30pct .row_col_wrap_12_inner,
             .nectar-global-section .vc_row.inner_row.right_padding_30pct .row_col_wrap_12_inner {
-            padding-right: 30%;
-          } .wpb_column[data-cfc="true"] h1,
-        .wpb_column[data-cfc="true"] h2,
-        .wpb_column[data-cfc="true"] h3,
-        .wpb_column[data-cfc="true"] h4,
-        .wpb_column[data-cfc="true"] h5,
-        .wpb_column[data-cfc="true"] h6,
-        .wpb_column[data-cfc="true"] p{
-          color:inherit
-        }@media only screen , print {.wpb_column.top_padding_desktop_6pct > .n-sticky > .vc_column-inner {
-              padding-top: 6%;
-            }.wpb_column.right_padding_desktop_6pct > .n-sticky > .vc_column-inner {
-              padding-right: 6%;
-            }.wpb_column.bottom_padding_desktop_1.5pct > .n-sticky > .vc_column-inner {
-              padding-bottom: 1%;
-            }.wpb_column.left_padding_desktop_6pct > .n-sticky > .vc_column-inner {
-              padding-left: 6%;
-            }}@media only screen , print {.wpb_column.top_padding_desktop_6pct > .vc_column-inner {
-              padding-top: 6%;
-            }.wpb_column.right_padding_desktop_6pct > .vc_column-inner {
-              padding-right: 6%;
-            }.wpb_column.bottom_padding_desktop_1.5pct > .vc_column-inner {
-              padding-bottom: 1%;
-            }.wpb_column.left_padding_desktop_6pct > .vc_column-inner {
-              padding-left: 6%;
-            }}#ajax-content-wrap .vc_row.inner_row.right_padding_25pct .row_col_wrap_12_inner,
+              padding-right: 30%;
+            }
+
+            .wpb_column[data-cfc="true"] h1,
+            .wpb_column[data-cfc="true"] h2,
+            .wpb_column[data-cfc="true"] h3,
+            .wpb_column[data-cfc="true"] h4,
+            .wpb_column[data-cfc="true"] h5,
+            .wpb_column[data-cfc="true"] h6,
+            .wpb_column[data-cfc="true"] p {
+              color: inherit
+            }
+
+            @media only screen,
+            print {
+              .wpb_column.top_padding_desktop_6pct>.n-sticky>.vc_column-inner {
+                padding-top: 6%;
+              }
+
+              .wpb_column.right_padding_desktop_6pct>.n-sticky>.vc_column-inner {
+                padding-right: 6%;
+              }
+
+              .wpb_column.bottom_padding_desktop_1.5pct>.n-sticky>.vc_column-inner {
+                padding-bottom: 1%;
+              }
+
+              .wpb_column.left_padding_desktop_6pct>.n-sticky>.vc_column-inner {
+                padding-left: 6%;
+              }
+            }
+
+            @media only screen,
+            print {
+              .wpb_column.top_padding_desktop_6pct>.vc_column-inner {
+                padding-top: 6%;
+              }
+
+              .wpb_column.right_padding_desktop_6pct>.vc_column-inner {
+                padding-right: 6%;
+              }
+
+              .wpb_column.bottom_padding_desktop_1.5pct>.vc_column-inner {
+                padding-bottom: 1%;
+              }
+
+              .wpb_column.left_padding_desktop_6pct>.vc_column-inner {
+                padding-left: 6%;
+              }
+            }
+
+            #ajax-content-wrap .vc_row.inner_row.right_padding_25pct .row_col_wrap_12_inner,
             .nectar-global-section .vc_row.inner_row.right_padding_25pct .row_col_wrap_12_inner {
-            padding-right: 25%;
-          } #ajax-content-wrap .vc_row.inner_row.left_padding_25pct .row_col_wrap_12_inner,
+              padding-right: 25%;
+            }
+
+            #ajax-content-wrap .vc_row.inner_row.left_padding_25pct .row_col_wrap_12_inner,
             .nectar-global-section .vc_row.inner_row.left_padding_25pct .row_col_wrap_12_inner {
-            padding-left: 25%;
-          } @media only screen , print {
-          body #ajax-content-wrap .font_size_desktop_3vw.font_size_min_20px.font_size_max_60px.nectar-responsive-text,
-          body .font_size_desktop_3vw.font_size_min_20px.font_size_max_60px.nectar-responsive-text {
-            font-size: min(60px,max(20px,3vw));
-          }
-        }#ajax-content-wrap .font_line_height_1-3.nectar-responsive-text {
-          line-height: 1.3;
-      }@media only screen and (max-width: 999px) { #ajax-content-wrap .vc_row.inner_row.left_padding_tablet_0px .row_col_wrap_12_inner {
-              padding-left: 0px!important;
-            } }@media only screen and (max-width: 999px) { #ajax-content-wrap .vc_row.inner_row.right_padding_tablet_0px .row_col_wrap_12_inner {
-              padding-right: 0px!important;
-            } }@media only screen and (max-width: 690px) { #ajax-content-wrap .vc_row.inner_row.left_padding_phone_13pct .row_col_wrap_12_inner {
-              padding-left: 13%!important;
-            } }@media only screen and (max-width: 690px) { #ajax-content-wrap .vc_row.inner_row.right_padding_phone_13pct .row_col_wrap_12_inner {
-              padding-right: 13%!important;
-            } }@media only screen and (max-width: 690px) { #ajax-content-wrap .vc_row.inner_row.left_padding_phone_0px .row_col_wrap_12_inner {
-              padding-left: 0px!important;
-            } }@media only screen and (max-width: 690px) { #ajax-content-wrap .vc_row.inner_row.right_padding_phone_0px .row_col_wrap_12_inner {
-              padding-right: 0px!important;
-            } }</style><div class="nectar-global-section nectar_hook_global_section_footer"><div class="container normal-container row"> 
-		<div id="fws_655911f13ff21"  data-column-margin="default" data-midnight="dark"  class="wpb_row vc_row-fluid vc_row full-width-section"  style="padding-top: 0px; padding-bottom: 0px; "><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer" ><div class="row-bg viewport-desktop using-bg-color"  style="background-color: #000000; "></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
-	<div style=" color: #ffc514;" class="vc_col-sm-12 wpb_column column_container vc_column_container col centered-text left_padding_desktop_6pct top_padding_desktop_6pct right_padding_desktop_6pct bottom_padding_desktop_1.5pct " data-cfc="true"  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
-		<div class="vc_column-inner" >
-			<div class="wpb_wrapper">
-				<div class="nectar-lottie-wrap width_desktop_50px alignment_center"><div class="nectar-lottie" data-lottie-settings="{&quot;trigger_type&quot;:&quot;play&quot;,&quot;mobile_func&quot;:&quot;default&quot;,&quot;loop&quot;:&quot;true&quot;,&quot;trigger_offset&quot;:&quot;0.00,100.00&quot;,&quot;frame_constraint&quot;:&quot;0.00,100.00&quot;,&quot;width_desktop&quot;:&quot;50&quot;,&quot;alignment&quot;:&quot;center&quot;,&quot;preserve_aspect_ratio&quot;:&quot;xMidYMid meet&quot;,&quot;json_url&quot;:&quot;https:\/\/assets1.lottiefiles.com\/packages\/lf20_UyIC2q.json&quot;,&quot;box_shadow_method&quot;:&quot;filter&quot;}"></div></div><div id="fws_655911f14653c" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row  right_padding_30pct left_padding_30pct right_padding_phone_13pct left_padding_phone_13pct"  style="padding-top: 20px; "><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
-	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
-		<div class="vc_column-inner" >
-		<div class="wpb_wrapper">
-			<div class="nectar-responsive-text font_size_min_20px font_size_max_60px font_size_desktop_3vw font_line_height_1-3 nectar-link-underline-effect"><h3>Stay up to date and never miss out.</h3>
-</div>
-		</div> 
-	</div>
-	</div> 
-</div></div><div id="fws_655911f1483af" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row  right_padding_25pct left_padding_25pct right_padding_tablet_0px right_padding_phone_0px left_padding_tablet_0px left_padding_phone_0px"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
-	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
-		<div class="vc_column-inner" >
-		<div class="wpb_wrapper">
-			<a class="nectar-button jumbo regular accent-color  regular-button"  role="button" style="margin-right: 25px; color: " data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Subscribe</span></a>
-		</div> 
-	</div>
-	</div> 
-</div></div><div id="fws_655911f14a4f1" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
-	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding el_spacing_10px inherit_tablet inherit_phone "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
-		<div class="vc_column-inner" >
-		<div class="wpb_wrapper">
-			<div class="nectar-circle-images nectar-circle-images--position_overlapping size_50px alignment_middle_desktop border_color_f7f7f7" ><div class="nectar-circle-images__inner"><div class="nectar-circle-images__image nectar-circle-images__item" style="z-index: 100;" data-nectar-img-src="https://themenectar.com/img/demo-media/unsplash/webp/ff1dfc85f81f.webp"></div><div class="nectar-circle-images__image nectar-circle-images__item" style="z-index: 99;" data-nectar-img-src="https://themenectar.com/img/demo-media/unsplash/webp/fc2fcf082f87.webp"></div><div class="nectar-circle-images__image nectar-circle-images__item" style="z-index: 98;" data-nectar-img-src="https://themenectar.com/img/demo-media/unsplash/webp/c5799533a786.webp"></div><div class="nectar-circle-images__image nectar-circle-images__item nectar-circle-images--text nectar-inherit-h5" style="background-color: #000000; color: #ffffff;"><span>+1k</span></div></div><div class="nectar-circle-images__text nectar-circle-images__item">Join the community</div></div>
-		</div> 
-	</div>
-	</div> 
-</div></div><div class="divider-wrap" data-alignment="default"><div style="height: 20px;" class="divider"></div></div><div id="fws_655911f14ccdb" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
-	<div style=" color: #ffc514;" class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone " data-cfc="true"  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
-		<div class="vc_column-inner" >
-		<div class="wpb_wrapper">
-			
-<div class="wpb_text_column wpb_content_element " >
-	<div class="wpb_wrapper">
-		<p style="text-align: center;"><em>Connect on Social Media</em></p>
-	</div>
-</div>
+              padding-left: 25%;
+            }
+
+            @media only screen,
+            print {
+
+              body #ajax-content-wrap .font_size_desktop_3vw.font_size_min_20px.font_size_max_60px.nectar-responsive-text,
+              body .font_size_desktop_3vw.font_size_min_20px.font_size_max_60px.nectar-responsive-text {
+                font-size: min(60px, max(20px, 3vw));
+              }
+            }
+
+            #ajax-content-wrap .font_line_height_1-3.nectar-responsive-text {
+              line-height: 1.3;
+            }
+
+            @media only screen and (max-width: 999px) {
+              #ajax-content-wrap .vc_row.inner_row.left_padding_tablet_0px .row_col_wrap_12_inner {
+                padding-left: 0px !important;
+              }
+            }
+
+            @media only screen and (max-width: 999px) {
+              #ajax-content-wrap .vc_row.inner_row.right_padding_tablet_0px .row_col_wrap_12_inner {
+                padding-right: 0px !important;
+              }
+            }
+
+            @media only screen and (max-width: 690px) {
+              #ajax-content-wrap .vc_row.inner_row.left_padding_phone_13pct .row_col_wrap_12_inner {
+                padding-left: 13% !important;
+              }
+            }
+
+            @media only screen and (max-width: 690px) {
+              #ajax-content-wrap .vc_row.inner_row.right_padding_phone_13pct .row_col_wrap_12_inner {
+                padding-right: 13% !important;
+              }
+            }
+
+            @media only screen and (max-width: 690px) {
+              #ajax-content-wrap .vc_row.inner_row.left_padding_phone_0px .row_col_wrap_12_inner {
+                padding-left: 0px !important;
+              }
+            }
+
+            @media only screen and (max-width: 690px) {
+              #ajax-content-wrap .vc_row.inner_row.right_padding_phone_0px .row_col_wrap_12_inner {
+                padding-right: 0px !important;
+              }
+            }
+          </style>
+          <div class="nectar-global-section nectar_hook_global_section_footer">
+            <div class="container normal-container row">
+              <div id="fws_655911f13ff21" data-column-margin="default" data-midnight="dark"
+                class="wpb_row vc_row-fluid vc_row full-width-section" style="padding-top: 0px; padding-bottom: 0px; ">
+                <div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false">
+                  <div class="inner-wrap row-bg-layer">
+                    <div class="row-bg viewport-desktop using-bg-color" style="background-color: #000000; "></div>
+                  </div>
+                </div>
+                <div class="row_col_wrap_12 col span_12 dark left">
+                  <div style=" color: #ffc514;"
+                    class="vc_col-sm-12 wpb_column column_container vc_column_container col centered-text left_padding_desktop_6pct top_padding_desktop_6pct right_padding_desktop_6pct bottom_padding_desktop_1.5pct "
+                    data-cfc="true" data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
+                    data-bg-opacity="1" data-animation="" data-delay="0">
+                    <div class="vc_column-inner">
+                      <div class="wpb_wrapper">
+                        <div class="nectar-lottie-wrap width_desktop_50px alignment_center">
+                          <div class="nectar-lottie"
+                            data-lottie-settings="{&quot;trigger_type&quot;:&quot;play&quot;,&quot;mobile_func&quot;:&quot;default&quot;,&quot;loop&quot;:&quot;true&quot;,&quot;trigger_offset&quot;:&quot;0.00,100.00&quot;,&quot;frame_constraint&quot;:&quot;0.00,100.00&quot;,&quot;width_desktop&quot;:&quot;50&quot;,&quot;alignment&quot;:&quot;center&quot;,&quot;preserve_aspect_ratio&quot;:&quot;xMidYMid meet&quot;,&quot;json_url&quot;:&quot;https:\/\/assets1.lottiefiles.com\/packages\/lf20_UyIC2q.json&quot;,&quot;box_shadow_method&quot;:&quot;filter&quot;}">
+                          </div>
+                        </div>
+                        <div id="fws_655911f14653c" data-midnight="" data-column-margin="default"
+                          class="wpb_row vc_row-fluid vc_row inner_row  right_padding_30pct left_padding_30pct right_padding_phone_13pct left_padding_phone_13pct"
+                          style="padding-top: 20px; ">
+                          <div class="row-bg-wrap">
+                            <div class="row-bg"></div>
+                          </div>
+                          <div class="row_col_wrap_12_inner col span_12  left">
+                            <div
+                              class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                              data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1"
+                              data-animation="" data-delay="0">
+                              <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                  <div
+                                    class="nectar-responsive-text font_size_min_20px font_size_max_60px font_size_desktop_3vw font_line_height_1-3 nectar-link-underline-effect">
+                                    <h3>Stay up to date and never miss out.</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="fws_655911f1483af" data-midnight="" data-column-margin="default"
+                          class="wpb_row vc_row-fluid vc_row inner_row  right_padding_25pct left_padding_25pct right_padding_tablet_0px right_padding_phone_0px left_padding_tablet_0px left_padding_phone_0px"
+                          style="">
+                          <div class="row-bg-wrap">
+                            <div class="row-bg"></div>
+                          </div>
+                          <div class="row_col_wrap_12_inner col span_12  left">
+                            <div
+                              class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                              data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1"
+                              data-animation="" data-delay="0">
+                              <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                  <a class="nectar-button jumbo regular accent-color  regular-button" role="button"
+                                    style="margin-right: 25px; color: " data-color-override="false"
+                                    data-hover-color-override="false"
+                                    data-hover-text-color-override="#fff"><span>Subscribe</span></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="fws_655911f14a4f1" data-midnight="" data-column-margin="default"
+                          class="wpb_row vc_row-fluid vc_row inner_row" style="">
+                          <div class="row-bg-wrap">
+                            <div class="row-bg"></div>
+                          </div>
+                          <div class="row_col_wrap_12_inner col span_12  left">
+                            <div
+                              class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding el_spacing_10px inherit_tablet inherit_phone "
+                              data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1"
+                              data-animation="" data-delay="0">
+                              <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                  <div
+                                    class="nectar-circle-images nectar-circle-images--position_overlapping size_50px alignment_middle_desktop border_color_f7f7f7">
+                                    <div class="nectar-circle-images__inner">
+                                      <div class="nectar-circle-images__image nectar-circle-images__item"
+                                        style="z-index: 100;"
+                                        data-nectar-img-src="https://themenectar.com/img/demo-media/unsplash/webp/ff1dfc85f81f.webp">
+                                      </div>
+                                      <div class="nectar-circle-images__image nectar-circle-images__item"
+                                        style="z-index: 99;"
+                                        data-nectar-img-src="https://themenectar.com/img/demo-media/unsplash/webp/fc2fcf082f87.webp">
+                                      </div>
+                                      <div class="nectar-circle-images__image nectar-circle-images__item"
+                                        style="z-index: 98;"
+                                        data-nectar-img-src="https://themenectar.com/img/demo-media/unsplash/webp/c5799533a786.webp">
+                                      </div>
+                                      <div
+                                        class="nectar-circle-images__image nectar-circle-images__item nectar-circle-images--text nectar-inherit-h5"
+                                        style="background-color: #000000; color: #ffffff;"><span>+1k</span></div>
+                                    </div>
+                                    <div class="nectar-circle-images__text nectar-circle-images__item">Join the
+                                      community</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="divider-wrap" data-alignment="default">
+                          <div style="height: 20px;" class="divider"></div>
+                        </div>
+                        <div id="fws_655911f14ccdb" data-midnight="" data-column-margin="default"
+                          class="wpb_row vc_row-fluid vc_row inner_row" style="">
+                          <div class="row-bg-wrap">
+                            <div class="row-bg"></div>
+                          </div>
+                          <div class="row_col_wrap_12_inner col span_12  left">
+                            <div style=" color: #ffc514;"
+                              class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                              data-cfc="true" data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
+                              data-bg-opacity="1" data-animation="" data-delay="0">
+                              <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+
+                                  <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                      <p style="text-align: center;"><em>Connect on Social Media</em></p>
+                                    </div>
+                                  </div>
 
 
 
-<div class="nectar_icon_wrap " data-style="default" data-padding="0px" data-color="extra-color-gradient-2" style="" >
-		<div class="nectar_icon" style="height: 74px; width: 74px;"><a href="https://www.instagram.com/dennis.ugbe/" target="_blank"></a><i style="font-size: 60px; line-height: 72px; height: 72px; width: 72px;" class="fa fa-instagram"></i></div>
-	</div><div class="nectar_icon_wrap " data-style="default" data-padding="0px" data-color="extra-color-gradient-2" style="" >
-		<div class="nectar_icon" style="height: 74px; width: 74px;"><a href="https://www.linkedin.com/in/terver-ugbe-91a319149/" target="_blank"></a><i style="font-size: 60px; line-height: 72px; height: 72px; width: 72px;" class="fa fa-linkedin-square"></i></div>
-	</div><div class="nectar_icon_wrap " data-style="default" data-padding="0px" data-color="extra-color-gradient-2" style="" >
-		<div class="nectar_icon" style="height: 74px; width: 74px;"><a href="mailto:dennisugbe@gmail.com" target="_blank"></a><i style="font-size: 60px; line-height: 72px; height: 72px; width: 72px;" class="fa fa-envelope-square"></i></div>
-	</div>
-		</div> 
-	</div>
-	</div> 
-</div></div>
-			</div> 
-		</div>
-	</div> 
-</div></div>
- </div></div>
-<div id="footer-outer" data-midnight="light" data-cols="4" data-custom-color="false" data-disable-copyright="false" data-matching-section-color="true" data-copyright-line="false" data-using-bg-img="false" data-bg-img-overlay="0.8" data-full-width="false" data-using-widget-area="false" data-link-hover="default">
-	
-	
-  <div class="row" id="copyright" data-layout="default">
-	
-	<div class="container">
-	   
-				<div class="col span_5">
-		   
-			<p>&copy; 2023 Tech Ruso. </p>
-		</div><!--/span_5-->
-			   
-	  <div class="col span_7 col_last">
-      <ul class="social">
-              </ul>
-	  </div><!--/span_7-->
-    
-	  	
-	</div><!--/container-->
-  </div><!--/row-->
-		
-</div><!--/footer-outer-->
-
-</div><!--blurred-wrap-->
-	<div id="slide-out-widget-area-bg" class="fullscreen dark">
-				</div>
-
-		<div id="slide-out-widget-area" class="fullscreen" data-dropdown-func="default" data-back-txt="Back">
-
-			<div class="inner-wrap">
-			<div class="inner" data-prepend-menu-mobile="false">
-
-				<a class="slide_out_area_close" href=""><span class="screen-reader-text">Close Menu</span>
-					<span class="close-wrap"> <span class="close-line close-line1"></span> <span class="close-line close-line2"></span> </span>				</a>
+                                  <div class="nectar_icon_wrap " data-style="default" data-padding="0px"
+                                    data-color="extra-color-gradient-2" style="">
+                                    <div class="nectar_icon" style="height: 74px; width: 74px;"><a
+                                        href="https://www.instagram.com/dennis.ugbe/" target="_blank"></a><i
+                                        style="font-size: 60px; line-height: 72px; height: 72px; width: 72px;"
+                                        class="fa fa-instagram"></i></div>
+                                  </div>
+                                  <div class="nectar_icon_wrap " data-style="default" data-padding="0px"
+                                    data-color="extra-color-gradient-2" style="">
+                                    <div class="nectar_icon" style="height: 74px; width: 74px;"><a
+                                        href="https://www.linkedin.com/in/terver-ugbe-91a319149/" target="_blank"></a><i
+                                        style="font-size: 60px; line-height: 72px; height: 72px; width: 72px;"
+                                        class="fa fa-linkedin-square"></i></div>
+                                  </div>
+                                  <div class="nectar_icon_wrap " data-style="default" data-padding="0px"
+                                    data-color="extra-color-gradient-2" style="">
+                                    <div class="nectar_icon" style="height: 74px; width: 74px;"><a
+                                        href="mailto:dennisugbe@gmail.com" target="_blank"></a><i
+                                        style="font-size: 60px; line-height: 72px; height: 72px; width: 72px;"
+                                        class="fa fa-envelope-square"></i></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="footer-outer" data-midnight="light" data-cols="4" data-custom-color="false"
+            data-disable-copyright="false" data-matching-section-color="true" data-copyright-line="false"
+            data-using-bg-img="false" data-bg-img-overlay="0.8" data-full-width="false" data-using-widget-area="false"
+            data-link-hover="default">
 
 
-									<div class="off-canvas-menu-container" role="navigation">
-						<ul class="menu">
-							<li id="menu-item-2109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2109"><a href="./index.html">Home</a></li>
-<li id="menu-item-2111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2111"><a href="./index.html">About</a></li>
-<li id="menu-item-2113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2113"><a href="./index.html">Services</a></li>
-<li id="menu-item-2115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2115"><a href="./index.html">Works</a></li>
-<li id="menu-item-2117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2117"><a href="./index.html">Writings</a></li>
-<li id="menu-item-2112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2112"><a href="./index.html">Contact</a></li>
+            <div class="row" id="copyright" data-layout="default">
 
-						</ul>
-					</div>
+              <div class="container">
 
-					
-				</div>
+                <div class="col span_5">
 
-				<div class="bottom-meta-wrap"></div><!--/bottom-meta-wrap--></div> <!--/inner-wrap-->
-				</div>
-		
-</div> <!--/ajax-content-wrap-->
+                  <p>&copy; 2023 Tech Ruso. </p>
+                </div><!--/span_5-->
 
-	<a id="to-top" aria-label="Back to top" href="" class="mobile-disabled"><i role="presentation" class="fa fa-angle-up"></i></a>
-	</div></div><!--/ocm-effect-wrap--><script type="text/html" id="wpb-modifications"></script><link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet' id='main-styles-non-critical-css' href='./css/build/style-non-critical.css?ver=16.0.5' type='text/css' media='all' />
-<link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet' id='fancyBox-css' href='./css/build/plugins/jquery.fancybox.css?ver=3.3.1' type='text/css' media='all' />
-<link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet' id='nectar-ocm-core-css' href='./css/build/off-canvas/core.css?ver=16.0.5' type='text/css' media='all' />
-<link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet' id='nectar-ocm-fullscreen-legacy-css' href='./css/build/off-canvas/fullscreen-legacy.css?ver=16.0.5' type='text/css' media='all' />
-<script type="text/javascript" src="./js/pdfobject.min.js" id="embedpress-pdfobject-js"></script>
-<script type="text/javascript" src="./js/initplyr.js" id="initplyr-js"></script>
-<script type="text/javascript" id="embedpress-front-js-extra">
-/* <![CDATA[ */
-var eplocalize = {"ajaxurl":"http:\/\/localhost\/portfolio\/wp-admin\/admin-ajax.php"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="./js/front.js" id="embedpress-front-js"></script>
-<script type="text/javascript" src="./js/documents-viewer-script.js" id="embedpress_documents_viewer_script-js"></script>
-<script type="text/javascript" id="salient-social-js-extra">
-/* <![CDATA[ */
-var nectarLove = {"ajaxurl":"http:\/\/localhost\/portfolio\/wp-admin\/admin-ajax.php","postID":"1990","rooturl":"http:\/\/localhost\/portfolio","loveNonce":"da84048da3"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="./js/salient-social.js" id="salient-social-js"></script>
-<script type="text/javascript" src="./js/jquery.easing.min.js" id="jquery-easing-js"></script>
-<script type="text/javascript" src="./js/jquery.mousewheel.min.js" id="jquery-mousewheel-js"></script>
-<script type="text/javascript" src="./js/priority.js" id="nectar_priority-js"></script>
-<script type="text/javascript" src="./js/transit.min.js" id="nectar-transit-js"></script>
-<script type="text/javascript" src="./js/waypoints.js" id="nectar-waypoints-js"></script>
-<script type="text/javascript" src="./js/imagesLoaded.min.js" id="imagesLoaded-js"></script>
-<script type="text/javascript" src="./js/hoverintent.min.js" id="hoverintent-js"></script>
-<script type="text/javascript" src="./js/jquery.fancybox.js" id="fancyBox-js"></script>
-<script type="text/javascript" src="./js/anime.min.js" id="anime-js"></script>
-<script type="text/javascript" src="./js/superfish.js" id="superfish-js"></script>
-<script type="text/javascript" id="nectar-frontend-js-extra">
-/* <![CDATA[ */
-var nectarLove = {"ajaxurl":"http:\/\/localhost\/portfolio\/wp-admin\/admin-ajax.php","postID":"1990","rooturl":"http:\/\/localhost\/portfolio","disqusComments":"false","loveNonce":"da84048da3","mapApiKey":""};
-var nectarOptions = {"delay_js":"false","quick_search":"false","react_compat":"disabled","header_entrance":"false","simplify_ocm_mobile":"0","mobile_header_format":"default","ocm_btn_position":"default","left_header_dropdown_func":"default","ajax_add_to_cart":"0","ocm_remove_ext_menu_items":"remove_images","woo_product_filter_toggle":"0","woo_sidebar_toggles":"true","woo_sticky_sidebar":"0","woo_minimal_product_hover":"default","woo_minimal_product_effect":"default","woo_related_upsell_carousel":"false","woo_product_variable_select":"default"};
-var nectar_front_i18n = {"menu":"Menu","next":"Next","previous":"Previous"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="./js/init.js" id="nectar-frontend-js"></script>
-<script type="text/javascript" src="./js/touchswipe.min.js" id="touchswipe-js"></script>
-<script type="text/javascript" src="./js/comment-reply.min.js" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
-<script type="text/javascript" id="wpb_composer_front_js-js-extra">
-/* <![CDATA[ */
-var vcData = {"currentTheme":{"slug":"salient"}};
-/* ]]> */
-</script>
-<script type="text/javascript" src="./js/js_composer_front.min.js" id="wpb_composer_front_js-js"></script>
-<script type="text/javascript" src="./js/lottie-player.min.js" id="lottie-player-js"></script>
-<script type="text/javascript" src="./js/nectar-lottie.js" id="nectar-lottie-js"></script>
+                <div class="col span_7 col_last">
+                  <ul class="social">
+                  </ul>
+                </div><!--/span_7-->
+
+
+              </div><!--/container-->
+            </div><!--/row-->
+
+          </div><!--/footer-outer-->
+
+        </div><!--blurred-wrap-->
+        <div id="slide-out-widget-area-bg" class="fullscreen dark">
+        </div>
+
+        <div id="slide-out-widget-area" class="fullscreen" data-dropdown-func="default" data-back-txt="Back">
+
+          <div class="inner-wrap">
+            <div class="inner" data-prepend-menu-mobile="false">
+
+              <a class="slide_out_area_close" href=""><span class="screen-reader-text">Close Menu</span>
+                <span class="close-wrap"> <span class="close-line close-line1"></span> <span
+                    class="close-line close-line2"></span> </span> </a>
+
+
+              <div class="off-canvas-menu-container" role="navigation">
+                <ul class="menu">
+                  <li id="menu-item-2109"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2109"><a
+                      href="./index.html">Home</a></li>
+                  <li id="menu-item-2111"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2111"><a
+                      href="./index.html">About</a></li>
+                  <li id="menu-item-2113"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2113"><a
+                      href="./index.html">Services</a></li>
+                  <li id="menu-item-2115"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2115"><a
+                      href="./index.html">Works</a></li>
+                  <li id="menu-item-2117"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2117"><a
+                      href="./index.html">Writings</a></li>
+                  <li id="menu-item-2112"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2112"><a
+                      href="./index.html">Contact</a></li>
+
+                </ul>
+              </div>
+
+
+            </div>
+
+            <div class="bottom-meta-wrap"></div><!--/bottom-meta-wrap-->
+          </div> <!--/inner-wrap-->
+        </div>
+
+      </div> <!--/ajax-content-wrap-->
+
+      <a id="to-top" aria-label="Back to top" href="" class="mobile-disabled"><i role="presentation"
+          class="fa fa-angle-up"></i></a>
+    </div>
+  </div><!--/ocm-effect-wrap-->
+  <script type="text/html" id="wpb-modifications"></script>
+  <link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet'
+    id='main-styles-non-critical-css' href='./css/build/style-non-critical.css?ver=16.0.5' type='text/css'
+    media='all' />
+  <link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet'
+    id='fancyBox-css' href='./css/build/plugins/jquery.fancybox.css?ver=3.3.1' type='text/css' media='all' />
+  <link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet'
+    id='nectar-ocm-core-css' href='./css/build/off-canvas/core.css?ver=16.0.5' type='text/css' media='all' />
+  <link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet'
+    id='nectar-ocm-fullscreen-legacy-css' href='./css/build/off-canvas/fullscreen-legacy.css?ver=16.0.5' type='text/css'
+    media='all' />
+  <script type="text/javascript" src="./js/pdfobject.min.js" id="embedpress-pdfobject-js"></script>
+  <script type="text/javascript" src="./js/initplyr.js" id="initplyr-js"></script>
+  <script type="text/javascript" id="embedpress-front-js-extra">
+    /* <![CDATA[ */
+    var eplocalize = { "ajaxurl": "http:\/\/localhost\/portfolio\/wp-admin\/admin-ajax.php" };
+    /* ]]> */
+  </script>
+  <script type="text/javascript" src="./js/front.js" id="embedpress-front-js"></script>
+  <script type="text/javascript" src="./js/documents-viewer-script.js"
+    id="embedpress_documents_viewer_script-js"></script>
+  <script type="text/javascript" id="salient-social-js-extra">
+    /* <![CDATA[ */
+    var nectarLove = { "ajaxurl": "http:\/\/localhost\/portfolio\/wp-admin\/admin-ajax.php", "postID": "1990", "rooturl": "http:\/\/localhost\/portfolio", "loveNonce": "da84048da3" };
+    /* ]]> */
+  </script>
+  <script type="text/javascript" src="./js/salient-social.js" id="salient-social-js"></script>
+  <script type="text/javascript" src="./js/jquery.easing.min.js" id="jquery-easing-js"></script>
+  <script type="text/javascript" src="./js/jquery.mousewheel.min.js" id="jquery-mousewheel-js"></script>
+  <script type="text/javascript" src="./js/priority.js" id="nectar_priority-js"></script>
+  <script type="text/javascript" src="./js/transit.min.js" id="nectar-transit-js"></script>
+  <script type="text/javascript" src="./js/waypoints.js" id="nectar-waypoints-js"></script>
+  <script type="text/javascript" src="./js/imagesLoaded.min.js" id="imagesLoaded-js"></script>
+  <script type="text/javascript" src="./js/hoverintent.min.js" id="hoverintent-js"></script>
+  <script type="text/javascript" src="./js/jquery.fancybox.js" id="fancyBox-js"></script>
+  <script type="text/javascript" src="./js/anime.min.js" id="anime-js"></script>
+  <script type="text/javascript" src="./js/superfish.js" id="superfish-js"></script>
+  <script type="text/javascript" id="nectar-frontend-js-extra">
+    /* <![CDATA[ */
+    var nectarLove = { "ajaxurl": "http:\/\/localhost\/portfolio\/wp-admin\/admin-ajax.php", "postID": "1990", "rooturl": "http:\/\/localhost\/portfolio", "disqusComments": "false", "loveNonce": "da84048da3", "mapApiKey": "" };
+    var nectarOptions = { "delay_js": "false", "quick_search": "false", "react_compat": "disabled", "header_entrance": "false", "simplify_ocm_mobile": "0", "mobile_header_format": "default", "ocm_btn_position": "default", "left_header_dropdown_func": "default", "ajax_add_to_cart": "0", "ocm_remove_ext_menu_items": "remove_images", "woo_product_filter_toggle": "0", "woo_sidebar_toggles": "true", "woo_sticky_sidebar": "0", "woo_minimal_product_hover": "default", "woo_minimal_product_effect": "default", "woo_related_upsell_carousel": "false", "woo_product_variable_select": "default" };
+    var nectar_front_i18n = { "menu": "Menu", "next": "Next", "previous": "Previous" };
+    /* ]]> */
+  </script>
+  <script type="text/javascript" src="./js/init.js" id="nectar-frontend-js"></script>
+  <script type="text/javascript" src="./js/touchswipe.min.js" id="touchswipe-js"></script>
+  <script type="text/javascript" src="./js/comment-reply.min.js" id="comment-reply-js" async="async"
+    data-wp-strategy="async"></script>
+  <script type="text/javascript" id="wpb_composer_front_js-js-extra">
+    /* <![CDATA[ */
+    var vcData = { "currentTheme": { "slug": "salient" } };
+    /* ]]> */
+  </script>
+  <script type="text/javascript" src="./js/js_composer_front.min.js" id="wpb_composer_front_js-js"></script>
+  <script type="text/javascript" src="./js/lottie-player.min.js" id="lottie-player-js"></script>
+  <script type="text/javascript" src="./js/nectar-lottie.js" id="nectar-lottie-js"></script>
 </body>
+
 </html>
 <!--This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) -->
